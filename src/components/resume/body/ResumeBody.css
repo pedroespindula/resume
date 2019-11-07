@@ -1,0 +1,31 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, max-content) auto;
+  grid-template-areas:
+    "who education"
+    "work personal-projects"
+    "work events"
+    "work awards";
+  grid-gap: 1em;
+}
+
+.who-am-i {
+  grid-area: who;
+}
+
+.work-experience {
+  grid-area: work;
+}
+
+.personal-projects {
+  grid-area: personal-projects;
+}
+
+.education {
+  grid-area: education;
+}
+
+.awards {
+  grid-area: awards;
+}

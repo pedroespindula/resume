@@ -1,0 +1,4 @@
+.title-with-list > ul {
+  list-style-type: disc;
+  margin: 0 1em;
+}

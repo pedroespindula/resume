@@ -1,0 +1,41 @@
+html,
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-section > div > ul > li {
+  margin: 0.5em;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--main-accent-color);
+}
+
+@media print {
+  html {
+    font-size: 13px;
+  }
+}

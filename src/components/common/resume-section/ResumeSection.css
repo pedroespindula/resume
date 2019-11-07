@@ -1,0 +1,34 @@
+.resume-section {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 2rem auto;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "icon title"
+    "children children";
+  grid-gap: 0.5em;
+  padding: 1em;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+  border-radius: 1em;
+}
+
+.resume-section > i {
+  grid-area: icon;
+}
+
+.resume-section > h2 {
+  grid-area: title;
+  margin: 0;
+}
+
+.resume-section > div {
+  grid-area: children;
+}
+
+.resume-section * {
+  text-align: justify;
+}

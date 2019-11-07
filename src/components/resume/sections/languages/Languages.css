@@ -1,0 +1,8 @@
+.languages > h4 {
+  color: var(--main-accent-color);
+  font-weight: 900;
+}
+
+.languages > h4 > span {
+  color: #000;
+}

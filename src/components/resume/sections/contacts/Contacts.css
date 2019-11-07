@@ -1,0 +1,6 @@
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content);
+  grid-gap: 0 0.4em;
+}

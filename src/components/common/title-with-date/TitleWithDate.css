@@ -1,0 +1,20 @@
+.title-with-date {
+}
+
+.title-with-date > * {
+  margin: 0;
+  padding: 0;
+}
+
+.title-with-date > h3 > a {
+  color: var(--main-featured-color);
+}
+
+.title-with-date > h3 > a > .icon {
+  margin: 0 0.5em;
+  color: var(--main-featured-color);
+}
+
+.title-with-date > h4 {
+  color: var(--main-light-color);
+}

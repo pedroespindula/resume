@@ -1,0 +1,138 @@
+{
+  "name": "Pedro Espíndula",
+  "email": "joaopedro.jpse@gmail.com",
+  "user": "@pedroespindula",
+  "from": "Campina Grande, PB - Brazil",
+  "mainField": "Frontend web development",
+  "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on understading frontend testing, UX and improving design skills for providing to the end user the best possible experience. Furthermore, I'm interested in NLP, specifically in text parsing and web scraping to allow data analysis on top of speeches.",
+  "contacts": [
+    {
+      "socialNetwork": "github",
+      "user": "pedroespindula",
+      "address": "https://www.github.com/pedroespindula"
+    },
+    {
+      "socialNetwork": "twitter",
+      "user": "pedro_espindula",
+      "address": "https://www.twitter.com/pedro_espindula"
+    },
+    {
+      "socialNetwork": "linkedin",
+      "user": "pedroespindula",
+      "address": "https://www.linkedin.com/in/pedro-esp%C3%ADndula-5302a4172/"
+    }
+  ],
+  "workExperience": [
+    {
+      "where": "Data Quality Laboratory (DQL) - PWC Tool",
+      "title": "Student Frontend Developer & Tester",
+      "from": "Aug 2019 - Present",
+      "mainActivities": [
+        "Frontend development of a Plantwide Control of Chemical Processes simulation tool",
+        "Ensure project quality with frontend tests"
+      ],
+      "address": "https://sites.google.com/site/dqgroupufcg/home",
+      "technologies": ["ReactJS", "Typescript", "Redux", "Cypress", "Jest"]
+    },
+    {
+      "where": "Software Practices Laboratory (SPLAB) - EPOL",
+      "title": "Student NLP Researcher",
+      "from": "May 2019 - Jul 2019",
+      "mainActivities": [
+        "Learn NLP techniques to process federal police reports and its contents",
+        "Learn text similarity measures to find similar federal police reports and spare efforts on investigations"
+      ],
+      "address": "https://docs.google.com/presentation/d/1dFECV26GbOpkPMVQcF-wWcmkOZ-WCAN4UQaiq8A7dBs/edit?usp=sharing",
+      "technologies": ["Python", "Google Colab", "NLTK", "Spacy"]
+    },
+    {
+      "where": "Software Practices Laboratory (SPLAB) - ECIS",
+      "title": "Student Frontend Developer",
+      "from": "Jan 2019 - Apr 2019",
+      "mainActivities": [
+        "Frontend development of a Social Network that integrates the Brazilian Health Industrial Complex (CIS)",
+        "Browser based text and video chat development using WebRTC"
+      ],
+      "address": "https://github.com/eciis/web",
+      "technologies": ["AngularJS (1.6)", "WebRTC", "Python"]
+    },
+    {
+      "where": "Software Practices Laboratory (SPLAB)",
+      "title": "Student Researcher",
+      "from": "Oct 2018 - Jan 2019",
+      "mainActivities": [
+        "WebRTC wrapper library development to enhance WebRTC abstraction",
+        "Signaling server development"
+      ],
+      "address": "https://github.com/eciis/webchat/tree/work-compiled",
+      "technologies": ["WebRTC", "Websocket"]
+    }
+  ],
+  "languages": [
+    { "lang": "Portuguese", "level": "native" },
+    { "lang": "English", "level": "fluent" }
+  ],
+  "projects": [
+    {
+      "name": "OpenDevUFCG",
+      "address": "https://opendevufcg.org/",
+      "description": "Student community focused on encouraging open source culture at UFCG, helping newcomers contribute to projects, organizing events and developing solutions of their own.",
+      "from": "Feb 2019 - Present"
+    },
+    {
+      "name": "Brazilian Chamber of Deputies speech scraper",
+      "address": "https://github.com/dados-congresso/raspador-discursos-camara",
+      "description": "Set of scripts that scrape speeches from transcripted political sessions to enable all kinds of data analisys and projects on top of those data.",
+      "from": "Aug 2019 - Present"
+    }
+  ],
+  "education": [
+    {
+      "where": "Federal University of Campina Grande (UFCG)",
+      "pursuing": "Bachelor's degree of Computer Science",
+      "from": "Jan 2018 - Present",
+      "details": "2° place out of 100 on ENEM aptitude test (SAT) and current score of 8.9/10.0 (GPA)",
+      "address": "https://portal.ufcg.edu.br/"
+    }
+  ],
+  "awards": [
+    {
+      "event": "Brazilian Robotics Olympiad (Theoretichal)",
+      "from": "OBR - 2017",
+      "award": "National Silver Medal and state second place",
+      "address": "https://drive.google.com/open?id=1oDf29PAz-ggyxzaCyrjSnZDIvFQowKRD"
+    },
+    {
+      "event": "Paraíba State Olympiad in Informatics",
+      "from": "OPI - 2017",
+      "award": "Honorable mention in Programming category",
+      "address": "https://drive.google.com/open?id=1jHvw96IpOZvqpLrjF4nTQOlVvtRGvMNN"
+    },
+    {
+      "event": "Motiva Olympic Highlight",
+      "from": "Motiva - 2017",
+      "award": "Olympic Highlight medal to honor performance in scientific Olympics",
+      "address": "https://drive.google.com/open?id=1xfCEH18FNmMnYNmuoYBot0HO4k_olqm8"
+    }
+  ],
+  "events": [
+    {
+      "name": "Hacktoberfest OpenDevUFCG 2019",
+      "from": "Oct 2019",
+      "role": "Organizer",
+      "address": "https://opendevufcg.org/hacktoberfest"
+    },
+    {
+      "name": "PyLadies Day PB ",
+      "from": "Oct 2019",
+      "role": "Participant",
+      "address": "https://www.sympla.com.br/pyladies-day-paraiba__642126"
+    },
+    {
+      "name": "PyNE - Python Nordeste",
+      "from": "May 2018",
+      "role": "Participant",
+      "address": "https://2018.pythonnordeste.org/"
+    }
+  ]
+}

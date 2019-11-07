@@ -1,0 +1,48 @@
+header {
+  display: grid;
+  grid-template-areas:
+    "logo name . languages contacts-info contacts"
+    "line line line line line line"
+    "mainField mainField mainField from from from";
+  grid-template-rows: repeat(3, min-content);
+  grid-template-columns: min-content auto 1fr auto auto auto;
+  grid-gap: 0.5em;
+  align-items: center;
+}
+
+header > .logo {
+  grid-area: logo;
+}
+
+header > .name {
+  display: grid;
+  grid-area: name;
+  font-size: 1.5em;
+  align-content: center;
+  margin: 0 0.5em;
+}
+header > .contacts-info {
+  grid-area: contacts-info;
+}
+
+header > .contacts {
+  grid-area: contacts;
+}
+
+header > .languages {
+  grid-area: languages;
+}
+
+header > hr {
+  grid-area: line;
+  margin: 0.5em 0;
+}
+
+header > .mainField {
+  grid-area: mainField;
+}
+
+header > .from {
+  grid-area: from;
+  text-align: right;
+}
