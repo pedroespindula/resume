@@ -46,3 +46,9 @@ header > .from {
   grid-area: from;
   text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+  header > .languages {
+    display: none
+  }  
+}
