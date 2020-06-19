@@ -5,7 +5,7 @@ header {
     "line line line line line line"
     "mainField mainField mainField from from from";
   grid-template-rows: repeat(3, min-content);
-  grid-template-columns: min-content auto 1fr auto auto auto;
+  grid-template-columns: auto auto 1fr auto auto auto;
   grid-gap: 0.5em;
   align-items: center;
 }
@@ -21,6 +21,11 @@ header > .name {
   align-content: center;
   margin: 0 0.5em;
 }
+
+header > .name > h1 {
+  margin: 0;
+}
+
 header > .contacts-info {
   grid-area: contacts-info;
 }
@@ -49,6 +54,6 @@ header > .from {
 
 @media screen and (max-width: 600px) {
   header > .languages {
-    display: none
-  }  
+    display: none;
+  }
 }
