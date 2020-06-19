@@ -3,9 +3,9 @@ main {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, max-content) auto;
   grid-template-areas:
-    "who education"
+    "work who"
+    "work education"
     "work personal-projects"
-    "work events"
     "work awards";
   grid-gap: 1em;
 }

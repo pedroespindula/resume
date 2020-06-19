@@ -5,7 +5,7 @@ import React from "react";
 import {
   Awards,
   Education,
-  Events,
+  // Events,
   Projects,
   WhoAmI,
   WorkExperience
@@ -14,7 +14,7 @@ import {
 const ResumeBody = ({
   awards,
   education,
-  events,
+  // events,
   projects,
   whoAmI,
   workExperience
@@ -25,7 +25,7 @@ const ResumeBody = ({
     <Projects info={projects} />
     <Education info={education} />
     <Awards info={awards} />
-    <Events info={events} />
+    {/* <Events info={events} /> */}
   </main>
 );
 

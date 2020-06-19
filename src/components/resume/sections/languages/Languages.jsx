@@ -4,7 +4,7 @@ import React from "react";
 
 import { TitleWithList } from "../../../common";
 
-const joinInfo = language => `${language.lang} (${language.level})`;
+const joinInfo = language => `${language.lang}`;
 
 const Languages = ({ info }) => (
   <TitleWithList

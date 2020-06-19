@@ -3,7 +3,7 @@
   "email": "joaopedro.jpse@gmail.com",
   "user": "@pedroespindula",
   "from": "Campina Grande, PB - Brazil",
-  "mainField": "Frontend web development",
+  "mainField": "FullStack Web Developer & NLP Researcher",
   "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on understading frontend testing, UX and improving design skills for providing to the end user the best possible experience. Furthermore, I'm interested in NLP, specifically in text parsing and web scraping to allow data analysis on top of speeches.",
   "contacts": [
     {
@@ -12,21 +12,38 @@
       "address": "https://www.github.com/pedroespindula"
     },
     {
-      "socialNetwork": "twitter",
-      "user": "pedro_espindula",
-      "address": "https://www.twitter.com/pedro_espindula"
-    },
-    {
       "socialNetwork": "linkedin",
       "user": "pedroespindula",
-      "address": "https://www.linkedin.com/in/pedro-esp%C3%ADndula-5302a4172/"
+      "address": "https://www.linkedin.com/in/pedroespindula/"
     }
   ],
   "workExperience": [
     {
+      "where": "Incodde",
+      "title": "Fullstack Web Developer",
+      "from": "Apr 2020 - Present",
+      "mainActivities": [
+        "Develop responsive and reactive frontend interfaces based on UX principles",
+        "Develop scalable and modularized micro-services systems and APIs"
+      ],
+      "address": "https://incodde.com",
+      "technologies": ["ReactJS", "Cypress", "Jest", "VueJS", "NodeJS", "Docker"]
+    },
+    {
+      "where": "Software Practices Laboratory (SPLAB) - EPOL",
+      "title": "NLP Solutions Researcher & Developer",
+      "from": "Mar 2020 - Present",
+      "mainActivities": [
+        "Research NLP techniques to process federal police reports and its contents",
+        "Develop NLP Solutions to gather information through an text based dataset"
+      ],
+      "address": "https://docs.google.com/presentation/d/1dFECV26GbOpkPMVQcF-wWcmkOZ-WCAN4UQaiq8A7dBs/edit?usp=sharing",
+      "technologies": ["Python", "NLTK", "Spacy", "Keras"]
+    },
+    {
       "where": "Data Quality Laboratory (DQL) - PWC Tool",
       "title": "Student Frontend Developer & Tester",
-      "from": "Aug 2019 - Present",
+      "from": "Aug 2019 - Feb 2020",
       "mainActivities": [
         "Frontend development of a Plantwide Control of Chemical Processes simulation tool",
         "Ensure project quality with frontend tests"
@@ -39,33 +56,22 @@
       "title": "Student NLP Researcher",
       "from": "May 2019 - Jul 2019",
       "mainActivities": [
-        "Learn NLP techniques to process federal police reports and its contents",
-        "Learn text similarity measures to find similar federal police reports and spare efforts on investigations"
+        "Research NLP techniques to process federal police reports and its contents"
       ],
       "address": "https://docs.google.com/presentation/d/1dFECV26GbOpkPMVQcF-wWcmkOZ-WCAN4UQaiq8A7dBs/edit?usp=sharing",
-      "technologies": ["Python", "Google Colab", "NLTK", "Spacy"]
+      "technologies": ["Python", "NLTK", "Spacy"]
     },
     {
       "where": "Software Practices Laboratory (SPLAB) - ECIS",
-      "title": "Student Frontend Developer",
-      "from": "Jan 2019 - Apr 2019",
+      "title": "Student Frontend Developer & Researcher",
+      "from": "Oct 2018 - Apr 2019",
       "mainActivities": [
         "Frontend development of a Social Network that integrates the Brazilian Health Industrial Complex (CIS)",
-        "Browser based text and video chat development using WebRTC"
+        "Browser based text and video chat development using WebRTC",
+        "Signaling server development with WebSocket"
       ],
       "address": "https://github.com/eciis/web",
-      "technologies": ["AngularJS (1.6)", "WebRTC", "Python"]
-    },
-    {
-      "where": "Software Practices Laboratory (SPLAB)",
-      "title": "Student Researcher",
-      "from": "Oct 2018 - Jan 2019",
-      "mainActivities": [
-        "WebRTC wrapper library development to enhance WebRTC abstraction",
-        "Signaling server development"
-      ],
-      "address": "https://github.com/eciis/webchat/tree/work-compiled",
-      "technologies": ["WebRTC", "Websocket"]
+      "technologies": ["AngularJS (1.6)", "WebRTC", "Websocket","Python", "Google AppEngine"]
     }
   ],
   "languages": [
@@ -80,10 +86,16 @@
       "from": "Feb 2019 - Present"
     },
     {
+      "name": "Resume",
+      "address": "https://pedro.espindula.me",
+      "description": "ReactJS based resume renderer. It renders a resume loading all your data from a JSON.",
+      "from": "November 2019"
+    },
+    {
       "name": "Brazilian Chamber of Deputies speech scraper",
       "address": "https://github.com/dados-congresso/raspador-discursos-camara",
       "description": "Set of scripts that scrape speeches from transcripted political sessions to enable all kinds of data analisys and projects on top of those data.",
-      "from": "Aug 2019 - Present"
+      "from": "Aug 2019"
     }
   ],
   "education": [
@@ -91,7 +103,8 @@
       "where": "Federal University of Campina Grande (UFCG)",
       "pursuing": "Bachelor's degree of Computer Science",
       "from": "Jan 2018 - Present",
-      "details": "2° place out of 100 on ENEM aptitude test (SAT) and current score of 8.9/10.0 (GPA)",
+      "details": "Current score of 8.9/10.0 (GPA) and 2° place out of 100 on ENEM aptitude test (SAT)",
+
       "address": "https://portal.ufcg.edu.br/"
     }
   ],

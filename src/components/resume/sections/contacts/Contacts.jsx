@@ -6,7 +6,6 @@ import "./Contacts.css";
 
 const contactIcons = {
   github: "fab fa-github-square",
-  twitter: "fab fa-twitter-square",
   linkedin: "fab fa-linkedin",
   email: "fas fa-envelope-square"
 };

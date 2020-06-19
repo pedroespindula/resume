@@ -3,7 +3,7 @@ header {
   grid-template-areas:
     "logo name . languages contacts-info contacts"
     "line line line line line line"
-    "mainField mainField mainField from from from";
+    "mainField mainField mainField mainField from from";
   grid-template-rows: repeat(3, min-content);
   grid-template-columns: auto auto 1fr auto auto auto;
   grid-gap: 0.5em;

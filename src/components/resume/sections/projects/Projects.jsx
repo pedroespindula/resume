@@ -16,7 +16,7 @@ const renderInfo = project => (
 );
 
 const Projects = ({ info }) => (
-  <ResumeSection title="Personal Projects" icon="fas fa-code">
+  <ResumeSection title="OpenSource Contributions" icon="fas fa-code">
     <ul>{info.map(renderInfo)}</ul>
   </ResumeSection>
 );
