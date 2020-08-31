@@ -6,7 +6,7 @@ const ContactsInfo = ({ user, email }) => (
   <TitleWithList
     className="contacts-info"
     title="Contacts"
-    itemList={[user, email]}
+    itemList={[email, user]}
   />
 );
 

@@ -3,8 +3,8 @@
   "email": "joaopedro.jpse@gmail.com",
   "user": "@pedroespindula",
   "from": "Campina Grande, PB - Brazil",
-  "mainField": "FullStack Web Developer & NLP Researcher",
-  "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on understading frontend testing, UX and improving design skills for providing to the end user the best possible experience. Furthermore, I'm interested in NLP, specifically in text parsing and web scraping to allow data analysis on top of speeches.",
+  "mainField": "Software Engineer & NLP Researcher",
+  "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on understading frontend interfaces, UX and testing for providing the end user the best possible experience. Furthermore, I'm interested in NLP, specifically in text parsing and web scraping to allow data analysis on top of speeches and reports. Additionally, I have interest on ways to provide robust infrastructures for systems with Docker, Kubernetes and AWS.",
   "contacts": [
     {
       "socialNetwork": "github",
@@ -20,29 +20,30 @@
   "workExperience": [
     {
       "where": "Incodde",
-      "title": "Fullstack Web Developer",
+      "title": "Software Engineer",
       "from": "Apr 2020 - Present",
       "mainActivities": [
         "Develop responsive and reactive frontend interfaces based on UX principles",
-        "Develop scalable and modularized micro-services systems and APIs"
+        "Develop scalable and modularized micro-services systems and APIs",
+        "Containerize and provide infrastructure on AWS for these micro-services"
       ],
       "address": "https://incodde.com",
-      "technologies": ["ReactJS", "Cypress", "Jest", "VueJS", "NodeJS", "Docker"]
+      "technologies": ["ReactJS", "NodeJS", "Cypress", "Jest", "Docker", "AWS"]
     },
     {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
-      "title": "NLP Solutions Researcher & Developer",
+      "title": "NLP Undergraduate Researcher",
       "from": "Mar 2020 - Present",
       "mainActivities": [
         "Research NLP techniques to process federal police reports and its contents",
-        "Develop NLP Solutions to gather information through an text based dataset"
+        "Develop solutions to gather, compare and link information between reports"
       ],
-      "address": "https://docs.google.com/presentation/d/1dFECV26GbOpkPMVQcF-wWcmkOZ-WCAN4UQaiq8A7dBs/edit?usp=sharing",
-      "technologies": ["Python", "NLTK", "Spacy", "Keras"]
+      "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
+      "technologies": ["Python", "NLTK", "Spacy"]
     },
     {
       "where": "Data Quality Laboratory (DQL) - PWC Tool",
-      "title": "Student Frontend Developer & Tester",
+      "title": "Frontend Developer & Tester",
       "from": "Aug 2019 - Feb 2020",
       "mainActivities": [
         "Frontend development of a Plantwide Control of Chemical Processes simulation tool",
@@ -53,25 +54,24 @@
     },
     {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
-      "title": "Student NLP Researcher",
+      "title": "NLP Undergraduate Researcher",
       "from": "May 2019 - Jul 2019",
       "mainActivities": [
         "Research NLP techniques to process federal police reports and its contents"
       ],
-      "address": "https://docs.google.com/presentation/d/1dFECV26GbOpkPMVQcF-wWcmkOZ-WCAN4UQaiq8A7dBs/edit?usp=sharing",
+      "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
       "technologies": ["Python", "NLTK", "Spacy"]
     },
     {
       "where": "Software Practices Laboratory (SPLAB) - ECIS",
-      "title": "Student Frontend Developer & Researcher",
+      "title": "Frontend Developer & Research Intern",
       "from": "Oct 2018 - Apr 2019",
       "mainActivities": [
         "Frontend development of a Social Network that integrates the Brazilian Health Industrial Complex (CIS)",
-        "Browser based text and video chat development using WebRTC",
-        "Signaling server development with WebSocket"
+        "Browser based text and video chat development using WebRTC and Websocket"
       ],
       "address": "https://github.com/eciis/web",
-      "technologies": ["AngularJS (1.6)", "WebRTC", "Websocket","Python", "Google AppEngine"]
+      "technologies": ["AngularJS (1.6)", "WebRTC", "Websocket"]
     }
   ],
   "languages": [
@@ -102,9 +102,8 @@
     {
       "where": "Federal University of Campina Grande (UFCG)",
       "pursuing": "Bachelor's degree of Computer Science",
-      "from": "Jan 2018 - Present",
+      "from": "Jan 2018 - Dec 2022",
       "details": "Current score of 8.9/10.0 (GPA) and 2° place out of 100 on ENEM aptitude test (SAT)",
-
       "address": "https://portal.ufcg.edu.br/"
     }
   ],
@@ -120,12 +119,6 @@
       "from": "OPI - 2017",
       "award": "Honorable mention in Programming category",
       "address": "https://drive.google.com/open?id=1jHvw96IpOZvqpLrjF4nTQOlVvtRGvMNN"
-    },
-    {
-      "event": "Motiva Olympic Highlight",
-      "from": "Motiva - 2017",
-      "award": "Olympic Highlight medal to honor performance in scientific Olympics",
-      "address": "https://drive.google.com/open?id=1xfCEH18FNmMnYNmuoYBot0HO4k_olqm8"
     }
   ],
   "events": [
