@@ -19,18 +19,6 @@
   ],
   "workExperience": [
     {
-      "where": "Incodde",
-      "title": "Software Engineer",
-      "from": "Apr 2020 - Present",
-      "mainActivities": [
-        "Develop responsive and reactive frontend interfaces based on UX principles",
-        "Develop scalable and modularized micro-services systems and APIs",
-        "Containerize and provide infrastructure on AWS for these micro-services"
-      ],
-      "address": "https://incodde.com",
-      "technologies": ["ReactJS", "NodeJS", "Cypress", "Jest", "Docker", "AWS"]
-    },
-    {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
       "title": "NLP Undergraduate Researcher",
       "from": "Mar 2020 - Present",
@@ -40,6 +28,18 @@
       ],
       "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
       "technologies": ["Python", "NLTK", "Spacy"]
+    },
+    {
+      "where": "Incodde",
+      "title": "Software Engineer",
+      "from": "Apr 2020 - Oct 2020",
+      "mainActivities": [
+        "Develop responsive and reactive frontend interfaces based on UX principles",
+        "Develop scalable and modularized micro-services systems and APIs",
+        "Containerize and provide infrastructure on AWS for these micro-services"
+      ],
+      "address": "https://incodde.com",
+      "technologies": ["ReactJS", "NodeJS", "Cypress", "Jest", "Docker", "AWS"]
     },
     {
       "where": "Data Quality Laboratory (DQL) - PWC Tool",
