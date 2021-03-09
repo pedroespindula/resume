@@ -3,7 +3,7 @@
   "email": "joaopedro.jpse@gmail.com",
   "user": "@pedroespindula",
   "from": "Campina Grande, PB - Brazil",
-  "mainField": "Software Engineer & NLP Researcher",
+  "mainField": "Software Engineer & NLP Solutions Developer",
   "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on understading frontend interfaces, UX and testing for providing the end user the best possible experience. Furthermore, I'm interested in NLP, specifically in text parsing and web scraping to allow data analysis on top of speeches and reports. Additionally, I have interest on ways to provide robust infrastructures for systems with Docker, Kubernetes and AWS.",
   "contacts": [
     {
@@ -20,21 +20,21 @@
   "workExperience": [
     {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
-      "title": "NLP Undergraduate Researcher",
+      "title": "Fullstack Software Developer",
       "from": "Mar 2020 - Present",
       "mainActivities": [
-        "Research NLP techniques to process federal police reports and its contents",
-        "Develop solutions to gather, compare and link information between reports"
+        "Develop frontend interfaces to gather, compare and link information between reports",
+        "Develop REST APIs for using NLP techniques to process federal police reports and their content"
       ],
       "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
-      "technologies": ["Python", "NLTK", "Spacy"]
+      "technologies": ["Python", "Flask", "NLTK", "Spacy", "JavaScript", "ReactJS", "Docker"]
     },
     {
       "where": "Incodde",
       "title": "Software Engineer",
       "from": "Apr 2020 - Oct 2020",
       "mainActivities": [
-        "Develop responsive and reactive frontend interfaces based on UX principles",
+        "Develop responsive and reactive frontend interfaces",
         "Develop scalable and modularized micro-services systems and APIs",
         "Containerize and provide infrastructure on AWS for these micro-services"
       ],
@@ -46,7 +46,7 @@
       "title": "Frontend Developer & Tester",
       "from": "Aug 2019 - Feb 2020",
       "mainActivities": [
-        "Frontend development of a Plantwide Control of Chemical Processes simulation tool",
+        "Frontend development of a Chemical Processes simulation tool",
         "Ensure project quality with frontend tests"
       ],
       "address": "https://sites.google.com/site/dqgroupufcg/home",
