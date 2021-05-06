@@ -1,10 +1,10 @@
 {
   "name": "Pedro Espíndula",
-  "email": "joaopedro.jpse@gmail.com",
+  "email": "pedro@espindula.me",
   "user": "@pedroespindula",
   "from": "Campina Grande, PB - Brazil",
-  "mainField": "Software Engineer & NLP Solutions Developer",
-  "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on understading frontend interfaces, UX and testing for providing the end user the best possible experience. Furthermore, I'm interested in NLP, specifically in text parsing and web scraping to allow data analysis on top of speeches and reports. Additionally, I have interest on ways to provide robust infrastructures for systems with Docker, Kubernetes and AWS.",
+  "mainField": "Software Engineer & Site Reliability Engineer",
+  "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on how to provide robust infrastructures for systems with Docker, Kubernetes and AWS. Furthermore, I aim to learn about perfomance optimization in the Backend and Software Architectural design to build reliable systems. Additionally, I have interest on ways to create frontend interfaces, UX and testing for providing the end user the best possible experience; and also in NLP, text parsing and web scraping for data analysis.",
   "contacts": [
     {
       "socialNetwork": "github",
@@ -19,9 +19,20 @@
   ],
   "workExperience": [
     {
+      "where": "VTEX Lab",
+      "title": "Reliability Researcher",
+      "from": "Apr 2021 - Present",
+      "mainActivities": [
+        "Research about VTEX infrastructure current state and how to improve it",
+        "Development of trustworthy, repeatable and straightforward load testing tools"
+      ],
+      "address": "https://lab.vtex.com/home/",
+      "technologies": ["Go", "AWS", "Python"]
+    },
+    {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
-      "title": "Fullstack Software Developer",
-      "from": "Mar 2020 - Present",
+      "title": "Lead Software Developer",
+      "from": "Mar 2020 - Mar 2021",
       "mainActivities": [
         "Develop frontend interfaces to gather, compare and link information between reports",
         "Develop REST APIs for using NLP techniques to process federal police reports and their content"
@@ -31,7 +42,7 @@
     },
     {
       "where": "Incodde",
-      "title": "Software Engineer",
+      "title": "Software Engineer & Site Reliability Engineer",
       "from": "Apr 2020 - Oct 2020",
       "mainActivities": [
         "Develop responsive and reactive frontend interfaces",
