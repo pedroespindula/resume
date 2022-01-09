@@ -1,31 +1,35 @@
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 5fr 4fr;
   grid-template-rows: repeat(4, auto);
   grid-template-areas:
     "work who"
     "work education"
     "work personal-projects"
-    "work awards";
+    "work other-work";
   grid-gap: 1em;
 }
 
-.who-am-i {
+main .who-am-i {
   grid-area: who;
 }
 
-.work-experience {
+main .work-experience {
   grid-area: work;
 }
 
-.personal-projects {
+main .other-work-experiences {
+  grid-area: other-work;
+}
+
+main .personal-projects {
   grid-area: personal-projects;
 }
 
-.education {
+main .education {
   grid-area: education;
 }
 
-.awards {
+main .awards {
   grid-area: awards;
 }

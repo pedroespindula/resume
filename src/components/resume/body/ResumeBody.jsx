@@ -3,28 +3,31 @@ import "./ResumeBody.css";
 import React from "react";
 
 import {
-  Awards,
+  // Awards,
   Education,
   // Events,
   Projects,
+  OtherWorkExperiences,
   WhoAmI,
   WorkExperience
 } from "../sections";
 
 const ResumeBody = ({
-  awards,
+  // awards,
   education,
   // events,
   projects,
+  otherWorkExperiences,
   whoAmI,
   workExperience
 }) => (
   <main>
-    <WhoAmI info={whoAmI} />
     <WorkExperience info={workExperience} />
-    <Projects info={projects} />
+    <WhoAmI info={whoAmI} />
     <Education info={education} />
-    <Awards info={awards} />
+    <OtherWorkExperiences info={otherWorkExperiences} />
+    <Projects info={projects} />
+    {/* <Awards info={awards} /> */}
     {/* <Events info={events} /> */}
   </main>
 );

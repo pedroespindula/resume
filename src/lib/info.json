@@ -4,7 +4,11 @@
   "user": "@pedroespindula",
   "from": "Campina Grande, PB - Brazil",
   "mainField": "Software Engineer & Site Reliability Engineer",
-  "whoAmI": "I'm a curious person who loves to discover how things work. Currently, all of my efforts are on how to provide robust infrastructures for systems with Docker, Kubernetes and AWS. Furthermore, I aim to learn about perfomance optimization in the Backend and Software Architectural design to build reliable systems. Additionally, I have interest on ways to create frontend interfaces, UX and testing for providing the end user the best possible experience; and also in NLP, text parsing and web scraping for data analysis.",
+  "whoAmI": [
+    "I started my journey as Software Engineer by learning Web development and becoming a Fullstack Software Developer. I learned several languages (Python, Go, JavaScript, Java) and worked with different kinds of technologies (NLTK, Cypress, WebSocket). This enabled me to have a broader view of the best solutions for a problem and start to design robust microservices, deal with architectural tradeoffs and identify possible improvements for a system.",
+    "In a recent time, I fell in love with Site Reliability Engineering and infrastructure by automating several deployments processes throughout scripting and creating CI/CD pipelines. Along with this passion, my interest in infrastructure as a code, AWS, Docker, Computer Networking, and DevOps arose. Currently, all of my efforts are on improving my SRE skills and on solving challenges regarding it."
+
+  ],
   "contacts": [
     {
       "socialNetwork": "github",
@@ -23,34 +27,48 @@
       "title": "Reliability Researcher",
       "from": "Apr 2021 - Present",
       "mainActivities": [
-        "Research about VTEX infrastructure current state and how to improve it",
-        "Development of trustworthy, repeatable and straightforward load testing tools"
+        "Use Infrastructure as a Code to describe several services including a critical system",
+        "Make load tests and analyze its results to guide infrastructure decisions",
+        "Design and maintain a proprietary load testing tool based on accurate load reproduction"
       ],
       "address": "https://lab.vtex.com/home/",
-      "technologies": ["Go", "AWS", "Python"]
+      "technologies": ["Terraform", "Ansible", "AWS", "Go", "Python"]
     },
     {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
       "title": "Lead Software Developer",
       "from": "Mar 2020 - Mar 2021",
       "mainActivities": [
-        "Develop frontend interfaces to gather, compare and link information between reports",
-        "Develop REST APIs for using NLP techniques to process federal police reports and their content"
+        "Develop an NLP microservices-based system with a frontend to provide useful information for Brazilian's Federal Police Officer",
+        "Containerize the microservices with Docker and deploy them on a private OpenShift cloud",
+        "Make software architectural decisions and guide other teammates on the development process"
       ],
       "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
-      "technologies": ["Python", "Flask", "NLTK", "Spacy", "JavaScript", "ReactJS", "Docker"]
+      "technologies": ["Docker", "OpenShift", "Python", "Flask", "NLTK", "Spacy", "JavaScript", "ReactJS"]
     },
     {
-      "where": "Incodde",
-      "title": "Software Engineer & Site Reliability Engineer",
-      "from": "Apr 2020 - Oct 2020",
+      "where": "Incodde - SRE",
+      "title": "Site Reliability Engineer",
+      "from": "Aug 2020 - Oct 2020",
       "mainActivities": [
-        "Develop responsive and reactive frontend interfaces",
-        "Develop scalable and modularized micro-services systems and APIs",
-        "Containerize and provide infrastructure on AWS for these micro-services"
+        "Containerize Javascript-based environments (Frontend and Backend) with Docker",
+        "Automate highly scalable and resilient cloud operations with CI/CD pipelines at AWS",
+        "Monitor and Troubleshoot complex incidents in distributed systems"
       ],
       "address": "https://incodde.com",
-      "technologies": ["ReactJS", "NodeJS", "Cypress", "Jest", "Docker", "AWS"]
+      "technologies": ["AWS", "Docker", "Gitlab CI", "Zabbix"]
+    },
+    {
+      "where": "Incodde - SWE",
+      "title": "Lead Software Engineer",
+      "from": "Apr 2020 - Aug 2020",
+      "mainActivities": [
+        "Gather product requirements and ensure they are met in conjunction with code quality",
+        "Design and develop modularized micro-services systems with integrations with external APIs",
+        "Develop responsive and reactive frontend interfaces, and ensure their quality with unit testing and integration testing"
+      ],
+      "address": "https://incodde.com",
+      "technologies": ["JavaScript", "NodeJS", "ReactJS", "VueJS", "Cypress", "Jest", "PostgreSQL"]
     },
     {
       "where": "Data Quality Laboratory (DQL) - PWC Tool",
@@ -62,7 +80,9 @@
       ],
       "address": "https://sites.google.com/site/dqgroupufcg/home",
       "technologies": ["ReactJS", "Typescript", "Redux", "Cypress", "Jest"]
-    },
+    }
+  ],
+  "otherWorkExperiences": [
     {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
       "title": "NLP Undergraduate Researcher",

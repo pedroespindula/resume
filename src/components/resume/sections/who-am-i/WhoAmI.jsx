@@ -6,7 +6,9 @@ import "./WhoAmI.css";
 
 const WhoAmI = ({ info }) => (
   <ResumeSection title="Who Am I" icon="fas fa-user">
-    <p className="indent">{info}</p>
+    {info.map((i) => (
+      <p className="indent">{i}</p>
+    ))}
   </ResumeSection>
 );
 
