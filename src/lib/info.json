@@ -3,7 +3,7 @@
   "email": "pedro@espindula.me",
   "user": "@pedroespindula",
   "from": "Campina Grande, PB - Brazil",
-  "mainField": "Software Engineer & Site Reliability Engineer",
+  "mainField": "Site Reliability Engineer & Software Engineer",
   "whoAmI": [
     "I started my journey as Software Engineer by learning Web development and becoming a Fullstack Software Developer. I learned several languages (Python, Go, JavaScript, Java) and worked with different kinds of technologies (NLTK, Cypress, WebSocket). This enabled me to have a broader view of the best solutions for a problem and start to design robust microservices, deal with architectural tradeoffs and identify possible improvements for a system.",
     "In a recent time, I fell in love with Site Reliability Engineering and infrastructure by automating several deployments processes throughout scripting and creating CI/CD pipelines. Along with this passion, my interest in infrastructure as a code, AWS, Docker, Computer Networking, and DevOps arose. Currently, all of my efforts are on improving my SRE skills and on solving challenges regarding it."
