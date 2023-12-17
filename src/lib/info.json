@@ -5,8 +5,8 @@
   "from": "Campina Grande, PB - Brazil",
   "mainField": "Site Reliability Engineer & Software Engineer",
   "whoAmI": [
-    "I started my journey as Software Engineer by learning Web development and becoming a Fullstack Software Developer. I learned several languages (Python, Go, JavaScript, Java) and worked with different kinds of technologies (NLTK, Cypress, WebSocket). This enabled me to have a broader view of the best solutions for a problem and start to design robust microservices, deal with architectural tradeoffs and identify possible improvements for a system.",
-    "In a recent time, I fell in love with Site Reliability Engineering and infrastructure by automating several deployments processes throughout scripting and creating CI/CD pipelines. Along with this passion, my interest in infrastructure as a code, AWS, Docker, Computer Networking, and DevOps arose. Currently, all of my efforts are on improving my SRE skills and on solving challenges regarding it."
+    "With a bachelor's degree in computer science from Universidade Federal de Campina Grande, I have a strong foundation in various languages and technologies, such as Python, Go, JavaScript, Java, Terraform, Ansible, and AWS. I started my career as a full-stack software developer, designing robust microservices, dealing with architectural trade-offs, and identifying possible improvements for a system.",
+    "Later, I discovered my passion for Site Reliability Engineering and infrastructure, and I joined Pagar.me as a SRE, where I improved the alert and incident management tool, the alert creation interface, reducing MTTA by 70% and MTTR by 55%. After Pagar.me joined the Stone Co. group, I was in charge to develop and maintain a scalable Observability Platform that enables our team to have quick insights about the health of our systems. I have expertise in AWS, Datadog, Terraform, and other technologies that help me automate and standardize telemetry data emission and collection. My goal is to continue solving challenges and learning new skills in the Observability Engineering and telemetry collection field."
 
   ],
   "contacts": [
@@ -23,9 +23,21 @@
   ],
   "workExperience": [
     {
+      "where": "Pagar.me & Stone Co.",
+      "title": "Senior Site Reliability Engineer",
+      "from": "Aug 2022 - Present",
+      "mainActivities": [
+        "Implementation of an alert and incident management tool reducing MTTA in 70% and MTTR in 55%;",
+        "Develop and maintain a Observability Platform to ensure our team can have quick insights about the health of our systems;",
+        "Standardize telemetry data emission and collection through the Observability Platform enhancing telemetry correlation and reducing billing in 10%"
+      ],
+      "address": "https://www.stone.co/br/",
+      "technologies": ["Terraform", "Datadog", "AWS", "Go", "Python"]
+    },
+    {
       "where": "VTEX Lab",
       "title": "Reliability Researcher",
-      "from": "Apr 2021 - Present",
+      "from": "Apr 2021 - Feb 2022",
       "mainActivities": [
         "Use Infrastructure as a Code to describe several services including a critical system",
         "Make load tests and analyze its results to guide infrastructure decisions",
@@ -69,7 +81,9 @@
       ],
       "address": "https://incodde.com",
       "technologies": ["JavaScript", "NodeJS", "ReactJS", "VueJS", "Cypress", "Jest", "PostgreSQL"]
-    },
+    }
+  ],
+  "otherWorkExperiences": [
     {
       "where": "Data Quality Laboratory (DQL) - PWC Tool",
       "title": "Frontend Developer & Tester",
@@ -80,9 +94,7 @@
       ],
       "address": "https://sites.google.com/site/dqgroupufcg/home",
       "technologies": ["ReactJS", "Typescript", "Redux", "Cypress", "Jest"]
-    }
-  ],
-  "otherWorkExperiences": [
+    },
     {
       "where": "Software Practices Laboratory (SPLAB) - EPOL",
       "title": "NLP Undergraduate Researcher",
@@ -114,7 +126,7 @@
       "name": "OpenDevUFCG",
       "address": "https://opendevufcg.org/",
       "description": "Student community focused on encouraging open source culture at UFCG, helping newcomers contribute to projects, organizing events and developing solutions of their own.",
-      "from": "Feb 2019 - Present"
+      "from": "Feb 2019 - Feb 2021"
     },
     {
       "name": "Resume",
