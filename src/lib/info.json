@@ -23,9 +23,21 @@
   ],
   "workExperience": [
     {
+      "where": "Zup Innovation",
+      "title": "Senior Site Reliability Engineer",
+      "from": "Aug 2024 - Present",
+      "mainActivities": [
+        "Create instrumentation standards to ensure applications Observability and Reliability",
+        "Increase applications uptime by 30% by identifying and solving performance issues",
+        "Decrease incident response time in 12% with the adoption of an observability platform"
+      ],
+      "address": "http://zup.com.br/",
+      "technologies": ["Terraform", "Datadog", "AWS", "Java"]
+    },
+    {
       "where": "Pagar.me & Stone Co.",
       "title": "Senior Site Reliability Engineer",
-      "from": "Aug 2022 - Present",
+      "from": "Feb 2022 - Aug 2024",
       "mainActivities": [
         "Implementation of an alert and incident management tool reducing MTTA in 70% and MTTR in 55%;",
         "Develop and maintain a Observability Platform to ensure our team can have quick insights about the health of our systems;",
@@ -69,7 +81,9 @@
       ],
       "address": "https://incodde.com",
       "technologies": ["AWS", "Docker", "Gitlab CI", "Zabbix"]
-    },
+    }
+  ],
+  "otherWorkExperiences": [
     {
       "where": "Incodde - SWE",
       "title": "Lead Software Engineer",
@@ -81,9 +95,7 @@
       ],
       "address": "https://incodde.com",
       "technologies": ["JavaScript", "NodeJS", "ReactJS", "VueJS", "Cypress", "Jest", "PostgreSQL"]
-    }
-  ],
-  "otherWorkExperiences": [
+    },
     {
       "where": "Data Quality Laboratory (DQL) - PWC Tool",
       "title": "Frontend Developer & Tester",
