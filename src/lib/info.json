@@ -30,24 +30,18 @@
       "roles": [
         {
           "title": "Staff Site Reliability Engineer",
-          "from": "August 2026 – Present",
-          "mainActivities": [
-            "Built usage and cost anomaly alerting for every Datadog product, with 105% and 110% thresholds plus per-team cost dashboards, after detecting and containing a log-ingestion burst 400–500x above baseline that had accrued $29.7K; the alerts have since caught 1 further anomaly in custom-metric volume",
-            "Root-caused a facial-login failure invisible to error monitors because 100% of responses returned HTTP 200, leading to the fix that cut the failure rate from 80% to 4% and the Android capture-screen p95 from 87s to under 7s",
-            "Driving SLOs with active error budgets for the 6 business-critical flows, including Pix instant payments, onboarding, credit, credit card and acquiring"
-          ]
+          "from": "August 2026 – Present"
         },
         {
           "title": "Senior Site Reliability Engineer",
-          "from": "July 2025 – July 2026",
-          "mainActivities": [
-            "Cut observability spend by $67K a year by consolidating 3 vendors onto Datadog, decommissioning New Relic and Sentry, and right-sizing the contract and APM ingestion",
-            "Raised the alert acknowledgement rate 5x, from 17% to 85%, by rolling out Rootly for alerting and on-call to 100% of engineering teams, with a Go CLI that migrated 1,215 monitors from 4 alerting sources through a dual-write rollout",
-            "Cut MTTA on critical alerts by 66%, from 12 to 4 minutes, by establishing incident-management standards (severity taxonomy, incident manager role, blameless postmortems) backed by an SRE health-metrics framework"
-          ]
+          "from": "July 2025 – July 2026"
         }
       ],
-      "mainActivities": [],
+      "mainActivities": [
+        "Cut observability spend by $67K a year by consolidating 3 vendors onto Datadog, decommissioning New Relic and Sentry, and right-sizing the contract and APM ingestion",
+        "Raised the alert acknowledgement rate 5x, from 17% to 85%, by rolling out Rootly for alerting and on-call to 100% of engineering teams, with a Go CLI that migrated 1,215 monitors from 4 alerting sources through a dual-write rollout",
+        "Cut MTTA on critical alerts by 66%, from 12 to 4 minutes, by establishing incident-management standards (severity taxonomy, incident manager role, blameless postmortems) backed by an SRE health-metrics framework"
+      ],
       "address": "https://www.cora.com.br/",
       "technologies": [
         "Datadog",
@@ -87,23 +81,18 @@
       "roles": [
         {
           "title": "Senior Site Reliability Engineer",
-          "from": "December 2023 – August 2024",
-          "mainActivities": [
-            "Reduced Datadog integration time from days to minutes (98%) by standardizing it as Terraform code across 50+ AWS accounts and Azure subscriptions",
-            "Reduced indexed log volume by 20% by building log-quality guardrails in Datadog"
-          ]
+          "from": "December 2023 – August 2024"
         },
         {
           "title": "Site Reliability Engineer",
-          "from": "2022 – December 2023",
-          "mainActivities": [
-            "Reduced MTTA by 70% and MTTR by 55% by implementing an alerting and incident-management tool and unifying alert creation across monitoring tools",
-            "Cut observability billing by 10% by building and running an observability platform on OpenTelemetry and Datadog that standardized how telemetry is emitted and collected",
-            "Cut telemetry tooling spend by $10K a month by monitoring billing and tuning how each tool was used"
-          ]
+          "from": "2022 – December 2023"
         }
       ],
-      "mainActivities": [],
+      "mainActivities": [
+        "Reduced MTTA by 70% and MTTR by 55% by implementing an alerting and incident-management tool and unifying alert creation across monitoring tools",
+        "Cut telemetry tooling spend by $10K a month by monitoring billing and tuning how each tool was used",
+        "Reduced Datadog integration time from days to minutes (98%) by standardizing it as Terraform code across 50+ AWS accounts and Azure subscriptions"
+      ],
       "address": "https://www.stone.co/br/",
       "technologies": [
         "Datadog",
