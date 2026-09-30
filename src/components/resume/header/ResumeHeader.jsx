@@ -2,29 +2,24 @@ import "./ResumeHeader.css";
 
 import React from "react";
 
-import { Contacts, ContactsInfo, Languages } from "../sections";
-import { Logo } from "../../common";
+import { Contacts, Languages } from "../sections";
+import { Icon, Logo } from "../../common";
 
-const renderName = name => name.split(" ").map(w => <h1>{w}</h1>);
-
-const ResumeHeader = ({
-  name,
-  from,
-  mainField,
-  user,
-  email,
-  contacts,
-  languages
-}) => (
-  <header>
+const ResumeHeader = ({ name, from, mainField, email, contacts, languages }) => (
+  <header className="resume-header">
     <Logo />
-    <span className="name">{renderName(name)}</span>
-    <ContactsInfo user={user} email={email} />
-    <Languages info={languages} />
-    <Contacts contacts={contacts} email={email} />
-    <hr />
-    <h2 className="mainField">{mainField}</h2>
-    <h2 className="from">{from}</h2>
+    <div className="identity">
+      <h1 className="name">{name}</h1>
+      <h2 className="main-field">{mainField}</h2>
+      <p className="from">
+        <Icon icon="fas fa-map-marker-alt" size="tiny" />
+        {from}
+      </p>
+    </div>
+    <div className="reach">
+      <Contacts contacts={contacts} email={email} />
+      <Languages info={languages} />
+    </div>
   </header>
 );
 

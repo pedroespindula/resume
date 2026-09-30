@@ -5,9 +5,7 @@
   "from": "Campina Grande, PB - Brazil",
   "mainField": "Site Reliability Engineer & Software Engineer",
   "whoAmI": [
-    "With a bachelor's degree in computer science from Universidade Federal de Campina Grande, I have a strong foundation in various languages and technologies, such as Python, Go, JavaScript, Java, Terraform, Ansible, and AWS. I started my career as a full-stack software developer, designing robust microservices, dealing with architectural trade-offs, and identifying possible improvements for a system.",
-    "Later, I discovered my passion for Site Reliability Engineering and infrastructure, and I joined Pagar.me as a SRE, where I improved the alert and incident management tool, the alert creation interface, reducing MTTA by 70% and MTTR by 55%. After Pagar.me joined the Stone Co. group, I was in charge to develop and maintain a scalable Observability Platform that enables our team to have quick insights about the health of our systems. I have expertise in AWS, Datadog, Terraform, and other technologies that help me automate and standardize telemetry data emission and collection. My goal is to continue solving challenges and learning new skills in the Observability Engineering and telemetry collection field."
-
+    "Site Reliability Engineer with 5+ years making platforms reliable, observable and cost-efficient, now at Cora. At Pagar.me & Stone Co. I cut MTTA by 70% and MTTR by 55% and reduced observability costs through standardized telemetry; at Zup I raised application uptime by 30%. I started as a full-stack developer and hold a BSc in Computer Science from UFCG."
   ],
   "contacts": [
     {
@@ -23,9 +21,27 @@
   ],
   "workExperience": [
     {
+      "where": "Cora",
+      "title": "Staff Site Reliability Engineer",
+      "from": "Jul 2025 - Present",
+      "roles": [
+        {
+          "title": "Staff Site Reliability Engineer",
+          "from": "Aug 2026 - Present"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "from": "Jul 2025 - Aug 2026"
+        }
+      ],
+      "mainActivities": [],
+      "address": "https://www.cora.com.br/",
+      "technologies": []
+    },
+    {
       "where": "Zup Innovation",
       "title": "Senior Site Reliability Engineer",
-      "from": "Aug 2024 - Present",
+      "from": "Aug 2024 - Jul 2025",
       "mainActivities": [
         "Create instrumentation standards to ensure applications Observability and Reliability",
         "Increase applications uptime by 30% by identifying and solving performance issues",
@@ -38,13 +54,25 @@
       "where": "Pagar.me & Stone Co.",
       "title": "Senior Site Reliability Engineer",
       "from": "Feb 2022 - Aug 2024",
+      "roles": [
+        {
+          "title": "Senior Site Reliability Engineer",
+          "from": "Dec 2023 - Aug 2024"
+        },
+        {
+          "title": "Site Reliability Engineer",
+          "from": "Feb 2022 - Dec 2023"
+        }
+      ],
       "mainActivities": [
-        "Implementation of an alert and incident management tool reducing MTTA in 70% and MTTR in 55%;",
-        "Develop and maintain a Observability Platform to ensure our team can have quick insights about the health of our systems;",
-        "Standardize telemetry data emission and collection through the Observability Platform enhancing telemetry correlation and reducing billing in 10%"
+        "Implement an alert and incident management tool, reducing MTTA by 70% and MTTR by 55%",
+        "Develop and maintain an Observability Platform, standardizing telemetry emission and collection and reducing billing by 10%",
+        "Implement a company-wide synthetics tool, reducing synthetics billing by 97%",
+        "Standardize Datadog integration with AWS accounts and Azure subscriptions, reducing cycle and lead time by 98%",
+        "Create log quality guardrails on Datadog, decreasing log indexing by 20%"
       ],
       "address": "https://www.stone.co/br/",
-      "technologies": ["Terraform", "Datadog", "AWS", "Go", "Python"]
+      "technologies": ["Terraform", "Datadog", "OpenTelemetry", "AWS", "Go", "Python"]
     },
     {
       "where": "VTEX Lab",
@@ -57,9 +85,11 @@
       ],
       "address": "https://lab.vtex.com/home/",
       "technologies": ["Terraform", "Ansible", "AWS", "Go", "Python"]
-    },
+    }
+  ],
+  "otherWorkExperiences": [
     {
-      "where": "Software Practices Laboratory (SPLAB) - EPOL",
+      "where": "SPLAB (UFCG) - EPOL",
       "title": "Lead Software Developer",
       "from": "Mar 2020 - Mar 2021",
       "mainActivities": [
@@ -81,9 +111,7 @@
       ],
       "address": "https://incodde.com",
       "technologies": ["AWS", "Docker", "Gitlab CI", "Zabbix"]
-    }
-  ],
-  "otherWorkExperiences": [
+    },
     {
       "where": "Incodde - SWE",
       "title": "Lead Software Engineer",
@@ -97,7 +125,7 @@
       "technologies": ["JavaScript", "NodeJS", "ReactJS", "VueJS", "Cypress", "Jest", "PostgreSQL"]
     },
     {
-      "where": "Data Quality Laboratory (DQL) - PWC Tool",
+      "where": "DQL (UFCG) - PWC Tool",
       "title": "Frontend Developer & Tester",
       "from": "Aug 2019 - Feb 2020",
       "mainActivities": [
@@ -108,9 +136,9 @@
       "technologies": ["ReactJS", "Typescript", "Redux", "Cypress", "Jest"]
     },
     {
-      "where": "Software Practices Laboratory (SPLAB) - EPOL",
+      "where": "SPLAB (UFCG) - EPOL",
       "title": "NLP Undergraduate Researcher",
-      "from": "May 2019 - Jul 2019",
+      "from": "May 2019 - Jun 2019",
       "mainActivities": [
         "Research NLP techniques to process federal police reports and its contents"
       ],
@@ -118,9 +146,9 @@
       "technologies": ["Python", "NLTK", "Spacy"]
     },
     {
-      "where": "Software Practices Laboratory (SPLAB) - ECIS",
+      "where": "SPLAB (UFCG) - ECIS",
       "title": "Frontend Developer & Research Intern",
-      "from": "Oct 2018 - Apr 2019",
+      "from": "Sep 2018 - Apr 2019",
       "mainActivities": [
         "Frontend development of a Social Network that integrates the Brazilian Health Industrial Complex (CIS)",
         "Browser based text and video chat development using WebRTC and Websocket"
@@ -156,9 +184,9 @@
   "education": [
     {
       "where": "Federal University of Campina Grande (UFCG)",
-      "pursuing": "Bachelor's degree of Computer Science",
+      "pursuing": "Bachelor's degree in Computer Science",
       "from": "Jan 2018 - Dec 2022",
-      "details": "Current score of 8.9/10.0 (GPA) and 2° place out of 100 on ENEM aptitude test (SAT)",
+      "details": "GPA 8.97/10.0 · 2nd place out of 100 on ENEM aptitude test (SAT)",
       "address": "https://portal.ufcg.edu.br/"
     }
   ],
@@ -194,6 +222,20 @@
       "from": "May 2018",
       "role": "Participant",
       "address": "https://2018.pythonnordeste.org/"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Datadog Certified: Log Management Fundamentals",
+      "issuer": "Datadog"
+    },
+    {
+      "name": "Introduction to Observability",
+      "issuer": "Datadog Learning Center"
+    },
+    {
+      "name": "Going Deeper with Logs Processing",
+      "issuer": "Datadog Learning Center"
     }
   ]
 }

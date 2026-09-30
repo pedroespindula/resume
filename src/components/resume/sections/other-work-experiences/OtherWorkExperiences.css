@@ -1,22 +1,22 @@
 .other-work-experiences {
-  display: grid;
+  gap: 0.75rem !important;
 }
 
-.we-content {
-  border-left: 1px solid var(--main-light-color);
-  padding: 0 0.5em;
-  margin: 0.5em 0;
+.other-work-experiences h3 {
+  font-size: 1rem !important;
 }
 
-.we-content > * {
-  margin: 0.3em;
-  padding: 0;
+.other-work-experiences .owe-title {
+  color: var(--main-light-color);
 }
 
-.we-content > ul {
-  margin: 0 2em;
+.other-work-experiences .owe-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.we-content > ul > li {
-  list-style-type: circle;
+.other-work-experiences .owe-date {
+  font-size: 0.9rem;
+  white-space: nowrap;
 }

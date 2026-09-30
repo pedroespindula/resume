@@ -1,6 +1,6 @@
 import Awards from "./awards/Awards";
+import Certifications from "./certifications/Certifications";
 import Contacts from "./contacts/Contacts";
-import ContactsInfo from "./contacts-info/ContactsInfo";
 import Education from "./education/Education";
 import Events from "./events/Events.jsx";
 import Languages from "./languages/Languages";
@@ -11,8 +11,8 @@ import WorkExperience from "./work-experience/WorkExperience";
 
 export {
   Awards,
+  Certifications,
   Contacts,
-  ContactsInfo,
   Education,
   Events,
   Languages,

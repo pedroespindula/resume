@@ -1,8 +1,26 @@
 .resume {
-  background-color: #fcfcfc;
   display: grid;
-  grid-gap: 1em;
-  padding: 1.5rem;
-  height: 100%;
-  width: 100%;
+  gap: 1.75rem;
+  max-width: 210mm;
+  min-height: 297mm;
+  margin: 2rem auto;
+  padding: 2.5rem 2.75rem;
+  background-color: var(--main-bg-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+@media screen and (max-width: 800px) {
+  .resume {
+    margin: 0;
+    padding: 1.5rem 1rem;
+    box-shadow: none;
+  }
+}
+
+@media print {
+  .resume {
+    margin: 0;
+    padding: 10mm 13mm;
+    box-shadow: none;
+  }
 }

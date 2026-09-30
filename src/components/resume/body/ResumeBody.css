@@ -1,35 +1,27 @@
-main {
+.resume-body {
   display: grid;
-  grid-template-columns: 5fr 4fr;
-  grid-template-rows: repeat(4, auto);
-  grid-template-areas:
-    "work who"
-    "work education"
-    "work personal-projects"
-    "work other-work";
-  grid-gap: 1em;
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem 2.75rem;
+  align-items: start;
 }
 
-main .who-am-i {
-  grid-area: who;
+.resume-body > .about-me {
+  grid-column: 1 / -1;
 }
 
-main .work-experience {
-  grid-area: work;
+.resume-body > .main-column,
+.resume-body > .side-column {
+  display: grid;
+  gap: 2rem;
 }
 
-main .other-work-experiences {
-  grid-area: other-work;
-}
+@media screen and (max-width: 800px) {
+  .resume-body {
+    grid-template-columns: 1fr;
+  }
 
-main .personal-projects {
-  grid-area: personal-projects;
-}
-
-main .education {
-  grid-area: education;
-}
-
-main .awards {
-  grid-area: awards;
+  .resume-body > .main-column,
+  .resume-body > .side-column {
+    display: contents;
+  }
 }

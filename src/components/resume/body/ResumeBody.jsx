@@ -4,9 +4,10 @@ import React from "react";
 
 import {
   // Awards,
+  Certifications,
   Education,
   // Events,
-  Projects,
+  // Projects,
   OtherWorkExperiences,
   WhoAmI,
   WorkExperience
@@ -14,21 +15,27 @@ import {
 
 const ResumeBody = ({
   // awards,
+  certifications,
   education,
   // events,
-  projects,
+  // projects,
   otherWorkExperiences,
   whoAmI,
   workExperience
 }) => (
-  <main>
-    <WorkExperience info={workExperience} />
+  <main className="resume-body">
     <WhoAmI info={whoAmI} />
-    <Education info={education} />
-    <OtherWorkExperiences info={otherWorkExperiences} />
-    <Projects info={projects} />
-    {/* <Awards info={awards} /> */}
-    {/* <Events info={events} /> */}
+    <div className="main-column">
+      <WorkExperience info={workExperience} />
+    </div>
+    <aside className="side-column">
+      <Education info={education} />
+      <Certifications info={certifications} />
+      <OtherWorkExperiences info={otherWorkExperiences} />
+      {/* <Projects info={projects} /> */}
+      {/* <Awards info={awards} /> */}
+      {/* <Events info={events} /> */}
+    </aside>
   </main>
 );
 

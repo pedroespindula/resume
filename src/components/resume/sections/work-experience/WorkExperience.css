@@ -1,22 +1,61 @@
 .work-experience {
+  gap: 1.6rem !important;
+}
+
+.work-experience .we-title,
+.work-experience .role-title {
+  margin-top: 0.1rem;
+  font-weight: 500;
+  color: var(--main-text-color);
+}
+
+.work-experience .we-roles {
   display: grid;
+  gap: 0.1rem;
 }
 
-.we-content {
-  border-left: 1px solid var(--main-light-color);
-  padding: 0 0.5em;
-  margin: 0.5em 0;
+.work-experience .we-roles > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
 }
 
-.we-content > * {
-  margin: 0.3em;
-  padding: 0;
+.work-experience .role-date {
+  color: var(--main-light-color);
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
-.we-content > ul {
-  margin: 0 2em;
+.work-experience .we-roles > li + li .role-title {
+  color: var(--main-light-color);
+  font-weight: 400;
 }
 
-.we-content > ul > li {
-  list-style-type: circle;
+.work-experience .we-activities {
+  margin: 0.5rem 0;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.work-experience .we-activities > li {
+  position: relative;
+  padding-left: 1rem;
+  line-height: 1.5;
+}
+
+.work-experience .we-activities > li::before {
+  content: "";
+  position: absolute;
+  left: 0.15rem;
+  top: 0.65em;
+  width: 0.28rem;
+  height: 0.28rem;
+  border-radius: 50%;
+  background-color: var(--main-light-color);
+}
+
+.work-experience .we-technologies {
+  color: var(--main-light-color);
+  font-size: 0.9rem;
 }

@@ -1,20 +1,32 @@
 .title-with-date {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: 1rem;
 }
 
-.title-with-date > * {
-  margin: 0;
-  padding: 0;
-}
-
-.title-with-date > h3 > a {
-  color: var(--main-featured-color);
+.title-with-date > h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .title-with-date > h3 > a > .icon {
-  margin: 0 0.5em;
-  color: var(--main-featured-color);
+  margin-left: 0.4rem;
+  font-size: 0.65rem;
+  color: var(--main-light-color);
+  vertical-align: 0.15em;
 }
 
-.title-with-date > h4 {
+.title-with-date > .date {
   color: var(--main-light-color);
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+@media print {
+  .title-with-date > h3 > a > .icon {
+    display: none;
+  }
 }

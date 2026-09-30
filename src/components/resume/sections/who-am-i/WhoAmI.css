@@ -1,3 +1,8 @@
-.indent {
-  margin-top: 0.5em;
+.about-me p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.indent + .indent {
+  margin-top: 0.6em;
 }
