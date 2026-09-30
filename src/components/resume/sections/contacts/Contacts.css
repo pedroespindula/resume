@@ -4,6 +4,11 @@
   justify-items: end;
 }
 
+.contacts a > span {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
 .contacts a {
   display: inline-flex;
   align-items: center;
