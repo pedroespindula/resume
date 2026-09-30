@@ -42,17 +42,8 @@
           "from": "July 2025 – July 2026",
           "mainActivities": [
             "Cut observability spend by $67K a year by consolidating 3 vendors onto Datadog, decommissioning New Relic and Sentry, and right-sizing the contract and APM ingestion",
-            "Flagged a real-user monitoring trial billing $2,800 a day in the first month, before it could exhaust the annual observability budget in about 6 weeks",
             "Raised the alert acknowledgement rate 5x, from 17% to 85%, by rolling out Rootly for alerting and on-call to 100% of engineering teams, with a Go CLI that migrated 1,215 monitors from 4 alerting sources through a dual-write rollout",
-            "Selected the on-call platform among 11 vendors through a 3-year TCO analysis and negotiated a 50% discount on on-call licenses, saving $9.5K a year",
-            "Cut MTTA on critical alerts by 66%, from 12 to 4 minutes, by establishing incident-management standards (severity taxonomy, incident manager role, blameless postmortems) backed by an SRE health-metrics framework",
-            "Doubled Datadog application coverage from 36% to 75% by standardizing monitors, alert channels, permissions and SSO, replacing the access-ticket queue with self-service",
-            "Raised on-time postmortems from 21% to 58% with automated reminders, AI-assisted drafting and per-area accountability",
-            "Built network monitoring for the 3 links to the central bank's payment network (RSFN), which detected a 10-minute Pix outage when 2 of the links dropped and supported the BGP root-cause analysis",
-            "Audited 368 of 370 Loki alert rules, found 177 with actionable errors and published a per-team error taxonomy and remediation map",
-            "Designed SLA monitoring for the core banking vendor with 6 synthetic API tests from 2 independent locations, producing contract-grade downtime evidence at under 5% of the contract value",
-            "Shipped 4 read-only MCP servers (Grafana, Datadog, Superset, Rootly) to production, giving 3 engineering and AI organizations programmatic access to observability data",
-            "Mentored 2 junior SREs to own the alerting platform, who went on to handle 52% of inbound platform requests in a quarter without escalation, and ran 11 SRE Office Hours sessions open to all of engineering"
+            "Cut MTTA on critical alerts by 66%, from 12 to 4 minutes, by establishing incident-management standards (severity taxonomy, incident manager role, blameless postmortems) backed by an SRE health-metrics framework"
           ]
         }
       ],
@@ -107,9 +98,8 @@
           "from": "2022 – December 2023",
           "mainActivities": [
             "Reduced MTTA by 70% and MTTR by 55% by implementing an alerting and incident-management tool and unifying alert creation across monitoring tools",
-            "Cut telemetry tooling spend by $10K a month by monitoring billing and tuning how each tool was used",
-            "Cut observability billing by a further 10% by building and running an observability platform on OpenTelemetry and Datadog that standardized how telemetry is emitted and collected",
-            "Cut synthetic-monitoring costs by 97% by implementing a company-wide synthetics tool"
+            "Cut observability billing by 10% by building and running an observability platform on OpenTelemetry and Datadog that standardized how telemetry is emitted and collected",
+            "Cut telemetry tooling spend by $10K a month by monitoring billing and tuning how each tool was used"
           ]
         }
       ],

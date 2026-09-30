@@ -39,3 +39,7 @@
 .resume-section > h2 {
   break-after: avoid;
 }
+
+.we-roles > li {
+  break-inside: avoid;
+}
