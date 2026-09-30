@@ -6,8 +6,7 @@
   "mainField": "Site Reliability Engineer & Software Engineer",
   "whoAmI": [
     "With a bachelor's degree in computer science from Universidade Federal de Campina Grande, I have a strong foundation in various languages and technologies, such as Python, Go, JavaScript, Java, Terraform, Ansible, and AWS. I started my career as a full-stack software developer, designing robust microservices, dealing with architectural trade-offs, and identifying possible improvements for a system.",
-    "Later, I discovered my passion for Site Reliability Engineering and infrastructure, and I joined Pagar.me as a SRE, where I improved the alert and incident management tool, the alert creation interface, reducing MTTA by 70% and MTTR by 55%. After Pagar.me joined the Stone Co. group, I was in charge to develop and maintain a scalable Observability Platform that enables our team to have quick insights about the health of our systems. I have expertise in AWS, Datadog, Terraform, and other technologies that help me automate and standardize telemetry data emission and collection. My goal is to continue solving challenges and learning new skills in the Observability Engineering and telemetry collection field."
-
+    "Later, I discovered my passion for Site Reliability Engineering and infrastructure, and I joined Pagar.me as a SRE, where I improved the alert and incident management tool, the alert creation interface, reducing MTTA by 70% and MTTR by 55%. After Pagar.me joined the Stone Co. group, I was in charge to develop and maintain a scalable Observability Platform that enables our team to have quick insights about the health of our systems. I have expertise in AWS, Datadog, Terraform, and other technologies that help me automate and standardize telemetry data emission and collection. Today I work at Cora as a Staff Site Reliability Engineer, bringing these practices to a fast-growing fintech platform. My goal is to continue solving challenges and learning new skills in the Observability Engineering and telemetry collection field."
   ],
   "contacts": [
     {
@@ -23,9 +22,31 @@
   ],
   "workExperience": [
     {
+      "where": "Cora",
+      "title": "Staff Site Reliability Engineer",
+      "from": "Jul 2025 - Present",
+      "roles": [
+        {
+          "title": "Staff Site Reliability Engineer",
+          "from": "Aug 2026 - Present"
+        },
+        {
+          "title": "Senior Site Reliability Engineer",
+          "from": "Jul 2025 - Aug 2026"
+        }
+      ],
+      "mainActivities": [
+        "Lead reliability and observability initiatives across the platform, defining standards adopted by engineering teams",
+        "Drive incident management practices, SLOs and error budgets to protect critical financial flows",
+        "Automate infrastructure provisioning and operations with Infrastructure as Code"
+      ],
+      "address": "https://www.cora.com.br/",
+      "technologies": ["AWS", "Kubernetes", "Terraform", "Datadog"]
+    },
+    {
       "where": "Zup Innovation",
       "title": "Senior Site Reliability Engineer",
-      "from": "Aug 2024 - Present",
+      "from": "Aug 2024 - Jul 2025",
       "mainActivities": [
         "Create instrumentation standards to ensure applications Observability and Reliability",
         "Increase applications uptime by 30% by identifying and solving performance issues",

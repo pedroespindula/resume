@@ -1,34 +1,30 @@
-.resume-section {
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 2rem auto;
-  grid-template-rows: auto 1fr;
-  grid-template-areas:
-    "icon title"
-    "children children";
-  grid-gap: 0.5em;
-  padding: 1em;
-  align-items: center;
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
-  border-radius: 1em;
-}
-
-.resume-section > i {
-  grid-area: icon;
-}
-
 .resume-section > h2 {
-  grid-area: title;
-  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--main-border-color);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.resume-section > div {
-  grid-area: children;
+.resume-section > h2 > .icon {
+  width: 1.1rem;
+  text-align: center;
 }
 
-.resume-section * {
-  text-align: justify;
+.resume-section > div > ul {
+  display: grid;
+  gap: 1rem;
+}
+
+.resume-section > div > ul > li {
+  break-inside: avoid;
+}
+
+.resume-section p {
+  color: var(--main-text-color);
 }

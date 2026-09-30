@@ -5,9 +5,9 @@ import { Icon } from "../../../common";
 import "./Contacts.css";
 
 const contactIcons = {
-  github: "fab fa-github-square",
+  github: "fab fa-github",
   linkedin: "fab fa-linkedin",
-  email: "fas fa-envelope-square"
+  email: "fas fa-envelope"
 };
 
 const buildEmail = email => ({
@@ -17,21 +17,23 @@ const buildEmail = email => ({
 });
 
 const renderContact = contact => (
-  <a
-    href={contact.address}
-    target="_blank"
-    rel="noopener noreferrer"
-    key={contact.socialNetwork}
-    className={contact.socialNetwork}
-  >
-    <Icon icon={contactIcons[contact.socialNetwork]} size="medium" />
-  </a>
+  <li key={contact.socialNetwork}>
+    <a
+      href={contact.address}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={contact.socialNetwork}
+    >
+      <span>{contact.user}</span>
+      <Icon icon={contactIcons[contact.socialNetwork]} size="tiny" />
+    </a>
+  </li>
 );
 
 const Contacts = ({ contacts, email }) => (
-  <section className="contacts">
-    {[...contacts, buildEmail(email)].map(renderContact)}
-  </section>
+  <ul className="contacts">
+    {[buildEmail(email), ...contacts].map(renderContact)}
+  </ul>
 );
 
 export default Contacts;

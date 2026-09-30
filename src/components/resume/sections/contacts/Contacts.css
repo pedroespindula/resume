@@ -1,6 +1,27 @@
 .contacts {
   display: grid;
-  grid-template-columns: repeat(2, min-content);
-  grid-template-rows: repeat(2, min-content);
-  grid-gap: 0 0.4em;
+  gap: 0.3rem;
+  justify-items: end;
+}
+
+.contacts a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contacts .icon {
+  width: 1rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    justify-items: start;
+  }
+
+  .contacts a {
+    flex-direction: row-reverse;
+  }
 }

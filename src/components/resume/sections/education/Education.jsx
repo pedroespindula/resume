@@ -11,12 +11,8 @@ const renderInfo = education => (
       date={education.from}
       link={education.address}
     />
-    <h4>
-      Pursuing: <span>{education.pursuing}</span>
-    </h4>
-    <h4>
-      Details: <span>{education.details}</span>
-    </h4>
+    <p className="edu-degree">{education.pursuing}</p>
+    <p className="edu-details">{education.details}</p>
   </li>
 );
 

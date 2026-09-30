@@ -4,9 +4,19 @@ import { ResumeSection, TitleWithDate } from "../../../common";
 
 import "./WorkExperience.css";
 
-const renderMainActivities = (mainActivity, index) => (
-  <li key={index}>{mainActivity};</li>
+const renderRole = role => (
+  <li key={role.title}>
+    <span className="role-title">{role.title}</span>
+    <span className="role-date">{role.from}</span>
+  </li>
 );
+
+const renderRoles = workExperience =>
+  workExperience.roles ? (
+    <ul className="we-roles">{workExperience.roles.map(renderRole)}</ul>
+  ) : (
+    <p className="we-title">{workExperience.title}</p>
+  );
 
 const renderInfo = (workExperience, index) => (
   <li key={index}>
@@ -15,17 +25,22 @@ const renderInfo = (workExperience, index) => (
       date={workExperience.from}
       link={workExperience.address}
     />
-    <div className="we-content">
-      <h4>Title: {workExperience.title}</h4>
-      <h4>Main Activities:</h4>
-      <ul>{workExperience.mainActivities.map(renderMainActivities)}</ul>
-      <h4>Technologies: {workExperience.technologies.join(", ")}</h4>
-    </div>
+    {renderRoles(workExperience)}
+    <ul className="we-activities">
+      {workExperience.mainActivities.map((activity, i) => (
+        <li key={i}>{activity.replace(/;$/, "")}</li>
+      ))}
+    </ul>
+    <ul className="we-technologies">
+      {workExperience.technologies.map(technology => (
+        <li key={technology}>{technology}</li>
+      ))}
+    </ul>
   </li>
 );
 
 const WorkExperience = ({ info }) => (
-  <ResumeSection title="Work Experience" icon="fas fa-tv">
+  <ResumeSection title="Work Experience" icon="fas fa-briefcase">
     <ul className="work-experience">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );

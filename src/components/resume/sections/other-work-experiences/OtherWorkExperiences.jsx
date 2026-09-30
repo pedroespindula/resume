@@ -11,12 +11,12 @@ const renderInfo = (workExperience, index) => (
       date={workExperience.from}
       link={workExperience.address}
     />
-    <h4>Title: {workExperience.title}</h4>
+    <p className="owe-title">{workExperience.title}</p>
   </li>
 );
 
 const OtherWorkExperiences = ({ info }) => (
-  <ResumeSection title="Other Work Experiences" icon="fas fa-ellipsis-h">
+  <ResumeSection title="Earlier Experience" icon="fas fa-history">
     <ul className="other-work-experiences">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );

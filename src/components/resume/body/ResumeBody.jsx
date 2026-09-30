@@ -21,14 +21,18 @@ const ResumeBody = ({
   whoAmI,
   workExperience
 }) => (
-  <main>
-    <WorkExperience info={workExperience} />
-    <WhoAmI info={whoAmI} />
-    <Education info={education} />
-    <OtherWorkExperiences info={otherWorkExperiences} />
-    <Projects info={projects} />
-    {/* <Awards info={awards} /> */}
-    {/* <Events info={events} /> */}
+  <main className="resume-body">
+    <div className="main-column">
+      <WorkExperience info={workExperience} />
+    </div>
+    <aside className="side-column">
+      <WhoAmI info={whoAmI} />
+      <Education info={education} />
+      <Projects info={projects} />
+      <OtherWorkExperiences info={otherWorkExperiences} />
+      {/* <Awards info={awards} /> */}
+      {/* <Events info={events} /> */}
+    </aside>
   </main>
 );
 

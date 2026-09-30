@@ -1,7 +1,7 @@
-h4 > span {
-  font-weight: normal;
+.education .edu-degree {
+  font-weight: 500;
 }
 
-.education .title-with-date {
-  margin: 0 0 0.3em;
+.education .edu-details {
+  color: var(--main-light-color);
 }

@@ -11,8 +11,10 @@ const ResumeSection = ({ children, icon, title }) => (
       .split(" ")
       .join("-")}`}
   >
-    <Icon icon={icon} size="small" />
-    <h2>{title}</h2>
+    <h2>
+      <Icon icon={icon} size="small" />
+      {title}
+    </h2>
     <div>{children}</div>
   </section>
 );

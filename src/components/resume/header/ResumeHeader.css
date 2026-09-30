@@ -1,59 +1,63 @@
-header {
+.resume-header {
   display: grid;
-  grid-template-areas:
-    "logo name . languages contacts-info contacts"
-    "line line line line line line"
-    "mainField mainField mainField mainField from from";
-  grid-template-rows: repeat(3, min-content);
-  grid-template-columns: auto auto 1fr auto auto auto;
-  grid-gap: 0.5em;
+  grid-template-columns: auto 1fr auto;
+  gap: 1.25rem;
   align-items: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--main-accent-color);
 }
 
-header > .logo {
-  grid-area: logo;
+.resume-header .logo {
+  height: 5rem;
 }
 
-header > .name {
+.resume-header .name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.resume-header .main-field {
+  margin-top: 0.25rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--main-text-color);
+}
+
+.resume-header .from {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.35rem;
+  color: var(--main-light-color);
+}
+
+.resume-header .from .icon {
+  color: var(--main-light-color);
+}
+
+.resume-header .reach {
   display: grid;
-  grid-area: name;
-  font-size: 1.5em;
-  align-content: center;
-  margin: 0 0.5em;
+  gap: 0.6rem;
+  justify-items: end;
 }
 
-header > .name > h1 {
-  margin: 0;
-}
+@media screen and (max-width: 800px) {
+  .resume-header {
+    grid-template-columns: auto 1fr;
+  }
 
-header > .contacts-info {
-  grid-area: contacts-info;
-}
+  .resume-header .logo {
+    height: 3.5rem;
+  }
 
-header > .contacts {
-  grid-area: contacts;
-}
+  .resume-header .name {
+    font-size: 1.9rem;
+  }
 
-header > .languages {
-  grid-area: languages;
-}
-
-header > hr {
-  grid-area: line;
-  margin: 0.5em 0;
-}
-
-header > .mainField {
-  grid-area: mainField;
-}
-
-header > .from {
-  grid-area: from;
-  text-align: right;
-}
-
-@media screen and (max-width: 600px) {
-  header > .languages {
-    display: none;
+  .resume-header .reach {
+    grid-column: 1 / -1;
+    justify-items: start;
   }
 }

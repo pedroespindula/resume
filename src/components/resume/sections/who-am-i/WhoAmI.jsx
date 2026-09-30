@@ -5,9 +5,11 @@ import { ResumeSection } from "../../../common";
 import "./WhoAmI.css";
 
 const WhoAmI = ({ info }) => (
-  <ResumeSection title="Who Am I" icon="fas fa-user">
-    {info.map((i) => (
-      <p className="indent">{i}</p>
+  <ResumeSection title="About Me" icon="fas fa-user">
+    {info.map((paragraph, index) => (
+      <p className="indent" key={index}>
+        {paragraph}
+      </p>
     ))}
   </ResumeSection>
 );
