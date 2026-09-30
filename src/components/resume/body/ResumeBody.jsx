@@ -6,7 +6,7 @@ import {
   // Awards,
   Education,
   // Events,
-  Projects,
+  // Projects,
   OtherWorkExperiences,
   WhoAmI,
   WorkExperience
@@ -16,7 +16,7 @@ const ResumeBody = ({
   // awards,
   education,
   // events,
-  projects,
+  // projects,
   otherWorkExperiences,
   whoAmI,
   workExperience
@@ -29,7 +29,7 @@ const ResumeBody = ({
     <aside className="side-column">
       <Education info={education} />
       <OtherWorkExperiences info={otherWorkExperiences} />
-      <Projects info={projects} />
+      {/* <Projects info={projects} /> */}
       {/* <Awards info={awards} /> */}
       {/* <Events info={events} /> */}
     </aside>
