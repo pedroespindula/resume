@@ -22,7 +22,7 @@ const renderInfo = (workExperience, index) => (
   <li key={index}>
     <TitleWithDate
       title={workExperience.where}
-      date={workExperience.from}
+      date={workExperience.roles ? null : workExperience.from}
       link={workExperience.address}
     />
     {renderRoles(workExperience)}
@@ -31,11 +31,9 @@ const renderInfo = (workExperience, index) => (
         <li key={i}>{activity.replace(/;$/, "")}</li>
       ))}
     </ul>
-    <ul className="we-technologies">
-      {workExperience.technologies.map(technology => (
-        <li key={technology}>{technology}</li>
-      ))}
-    </ul>
+    <p className="we-technologies">
+      {workExperience.technologies.join(" · ")}
+    </p>
   </li>
 );
 

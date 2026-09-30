@@ -4,7 +4,7 @@
   gap: 1.25rem;
   align-items: center;
   padding-bottom: 1.5rem;
-  border-bottom: 2px solid var(--main-accent-color);
+  border-bottom: 1px solid var(--main-border-color);
 }
 
 .resume-header .logo {

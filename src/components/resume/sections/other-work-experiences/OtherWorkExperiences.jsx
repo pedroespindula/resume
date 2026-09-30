@@ -6,12 +6,11 @@ import "./OtherWorkExperiences.css";
 
 const renderInfo = (workExperience, index) => (
   <li key={index}>
-    <TitleWithDate
-      title={workExperience.where}
-      date={workExperience.from}
-      link={workExperience.address}
-    />
-    <p className="owe-title">{workExperience.title}</p>
+    <TitleWithDate title={workExperience.where} link={workExperience.address} />
+    <p className="owe-title">
+      <span>{workExperience.title}</span>
+      <span className="owe-date">{workExperience.from}</span>
+    </p>
   </li>
 );
 

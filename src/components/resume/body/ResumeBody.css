@@ -1,28 +1,27 @@
 .resume-body {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  gap: 2.25rem;
+  gap: 2rem 2.75rem;
   align-items: start;
+}
+
+.resume-body > .about-me {
+  grid-column: 1 / -1;
 }
 
 .resume-body > .main-column,
 .resume-body > .side-column {
   display: grid;
-  gap: 1.75rem;
+  gap: 2rem;
 }
 
 @media screen and (max-width: 800px) {
   .resume-body {
     grid-template-columns: 1fr;
-    gap: 1.75rem;
   }
 
   .resume-body > .main-column,
   .resume-body > .side-column {
     display: contents;
-  }
-
-  .resume-body .about-me {
-    order: -1;
   }
 }

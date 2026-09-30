@@ -1,7 +1,22 @@
 .other-work-experiences {
-  gap: 0.6rem !important;
+  gap: 0.75rem !important;
+}
+
+.other-work-experiences h3 {
+  font-size: 1rem !important;
 }
 
 .other-work-experiences .owe-title {
   color: var(--main-light-color);
+}
+
+.other-work-experiences .owe-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.other-work-experiences .owe-date {
+  font-size: 0.9rem;
+  white-space: nowrap;
 }

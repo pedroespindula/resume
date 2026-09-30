@@ -4,7 +4,7 @@ body {
   color: var(--main-text-color);
   font-size: 12px;
   font-family: "Inter", "Roboto", system-ui, sans-serif;
-  line-height: 1.45;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 

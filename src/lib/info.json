@@ -5,8 +5,7 @@
   "from": "Campina Grande, PB - Brazil",
   "mainField": "Site Reliability Engineer & Software Engineer",
   "whoAmI": [
-    "With a bachelor's degree in computer science from Universidade Federal de Campina Grande, I have a strong foundation in various languages and technologies, such as Python, Go, JavaScript, Java, Terraform, Ansible, and AWS. I started my career as a full-stack software developer, designing robust microservices, dealing with architectural trade-offs, and identifying possible improvements for a system.",
-    "Later, I discovered my passion for Site Reliability Engineering and infrastructure, and I joined Pagar.me as a SRE, where I improved the alert and incident management tool, the alert creation interface, reducing MTTA by 70% and MTTR by 55%. After Pagar.me joined the Stone Co. group, I was in charge to develop and maintain a scalable Observability Platform that enables our team to have quick insights about the health of our systems. I have expertise in AWS, Datadog, Terraform, and other technologies that help me automate and standardize telemetry data emission and collection. Today I work at Cora as a Staff Site Reliability Engineer, bringing these practices to a fast-growing fintech platform. My goal is to continue solving challenges and learning new skills in the Observability Engineering and telemetry collection field."
+    "Site Reliability Engineer with 5+ years making platforms reliable and observable. I have led observability and incident management initiatives at Pagar.me & Stone Co., Zup and now Cora, cutting MTTA by 70% and MTTR by 55% with AWS, Terraform and Datadog. I started as a full-stack developer and hold a BSc in Computer Science from UFCG."
   ],
   "contacts": [
     {
@@ -78,9 +77,11 @@
       ],
       "address": "https://lab.vtex.com/home/",
       "technologies": ["Terraform", "Ansible", "AWS", "Go", "Python"]
-    },
+    }
+  ],
+  "otherWorkExperiences": [
     {
-      "where": "Software Practices Laboratory (SPLAB) - EPOL",
+      "where": "SPLAB (UFCG) - EPOL",
       "title": "Lead Software Developer",
       "from": "Mar 2020 - Mar 2021",
       "mainActivities": [
@@ -102,9 +103,7 @@
       ],
       "address": "https://incodde.com",
       "technologies": ["AWS", "Docker", "Gitlab CI", "Zabbix"]
-    }
-  ],
-  "otherWorkExperiences": [
+    },
     {
       "where": "Incodde - SWE",
       "title": "Lead Software Engineer",
@@ -118,7 +117,7 @@
       "technologies": ["JavaScript", "NodeJS", "ReactJS", "VueJS", "Cypress", "Jest", "PostgreSQL"]
     },
     {
-      "where": "Data Quality Laboratory (DQL) - PWC Tool",
+      "where": "DQL (UFCG) - PWC Tool",
       "title": "Frontend Developer & Tester",
       "from": "Aug 2019 - Feb 2020",
       "mainActivities": [
@@ -129,7 +128,7 @@
       "technologies": ["ReactJS", "Typescript", "Redux", "Cypress", "Jest"]
     },
     {
-      "where": "Software Practices Laboratory (SPLAB) - EPOL",
+      "where": "SPLAB (UFCG) - EPOL",
       "title": "NLP Undergraduate Researcher",
       "from": "May 2019 - Jul 2019",
       "mainActivities": [
@@ -139,7 +138,7 @@
       "technologies": ["Python", "NLTK", "Spacy"]
     },
     {
-      "where": "Software Practices Laboratory (SPLAB) - ECIS",
+      "where": "SPLAB (UFCG) - ECIS",
       "title": "Frontend Developer & Research Intern",
       "from": "Oct 2018 - Apr 2019",
       "mainActivities": [

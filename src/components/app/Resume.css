@@ -20,7 +20,7 @@
 @media print {
   .resume {
     margin: 0;
-    padding: 12mm 14mm;
+    padding: 10mm 13mm;
     box-shadow: none;
   }
 }
