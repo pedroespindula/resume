@@ -25,6 +25,9 @@ const renderInfo = (workExperience, index) => (
       date={workExperience.roles ? null : workExperience.from}
       link={workExperience.address}
     />
+    {workExperience.about && (
+      <p className="we-about">{workExperience.about}</p>
+    )}
     {renderRoles(workExperience)}
     {workExperience.mainActivities.length > 0 && (
       <ul className="we-activities">

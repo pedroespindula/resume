@@ -1,14 +1,10 @@
 .resume-header {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: 1fr auto;
   gap: 1.25rem;
   align-items: center;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--main-border-color);
-}
-
-.resume-header .logo {
-  height: 5rem;
 }
 
 .resume-header .name {
@@ -45,11 +41,7 @@
 
 @media screen and (max-width: 800px) {
   .resume-header {
-    grid-template-columns: auto 1fr;
-  }
-
-  .resume-header .logo {
-    height: 3.5rem;
+    grid-template-columns: 1fr;
   }
 
   .resume-header .name {

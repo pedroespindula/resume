@@ -2,12 +2,11 @@ import "./ResumeHeader.css";
 
 import React from "react";
 
-import { Contacts, Languages } from "../sections";
-import { Icon, Logo } from "../../common";
+import { Contacts } from "../sections";
+import { Icon } from "../../common";
 
-const ResumeHeader = ({ name, from, mainField, email, contacts, languages }) => (
+const ResumeHeader = ({ name, from, mainField, email, contacts }) => (
   <header className="resume-header">
-    <Logo />
     <div className="identity">
       <h1 className="name">{name}</h1>
       <h2 className="main-field">{mainField}</h2>
@@ -18,7 +17,6 @@ const ResumeHeader = ({ name, from, mainField, email, contacts, languages }) => 
     </div>
     <div className="reach">
       <Contacts contacts={contacts} email={email} />
-      <Languages info={languages} />
     </div>
   </header>
 );

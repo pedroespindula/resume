@@ -2,164 +2,188 @@
   "name": "Pedro Espíndula",
   "email": "pedro@espindula.me",
   "user": "@pedroespindula",
-  "from": "Campina Grande, PB - Brazil",
-  "mainField": "Site Reliability Engineer & Software Engineer",
+  "from": "Brazil · Remote (UTC-3)",
+  "mainField": "Staff Site Reliability Engineer",
   "whoAmI": [
-    "Site Reliability Engineer with 5+ years making platforms reliable, observable and cost-efficient, now at Cora. At Pagar.me & Stone Co. I cut MTTA by 70% and MTTR by 55% and reduced observability costs through standardized telemetry; at Zup I raised application uptime by 30%. I started as a full-stack developer and hold a BSc in Computer Science from UFCG."
+    "Staff Site Reliability Engineer with 5+ years making production platforms reliable, observable and cost-efficient, mostly at Brazilian fintechs. At Cora I rolled out company-wide alerting and on-call with Rootly, raising alert acknowledgement from 17% to 85%, and consolidated observability onto Datadog, saving $67K a year. At Pagar.me (Stone Co.) I cut MTTA by 70% and MTTR by 55%. Hands-on with Datadog, OpenTelemetry, Prometheus, Grafana, Terraform, AWS, Go and Python."
   ],
   "contacts": [
     {
       "socialNetwork": "github",
-      "user": "pedroespindula",
+      "user": "github.com/pedroespindula",
       "address": "https://www.github.com/pedroespindula"
     },
     {
       "socialNetwork": "linkedin",
-      "user": "pedroespindula",
+      "user": "linkedin.com/in/pedroespindula",
       "address": "https://www.linkedin.com/in/pedroespindula/"
     }
   ],
   "workExperience": [
     {
       "where": "Cora",
+      "about": "Brazilian digital bank for small and medium businesses",
       "title": "Staff Site Reliability Engineer",
-      "from": "Jul 2025 - Present",
+      "from": "July 2025 – Present",
       "roles": [
         {
           "title": "Staff Site Reliability Engineer",
-          "from": "Aug 2026 - Present"
+          "from": "August 2026 – Present"
         },
         {
           "title": "Senior Site Reliability Engineer",
-          "from": "Jul 2025 - Aug 2026"
+          "from": "July 2025 – July 2026"
         }
       ],
-      "mainActivities": [],
+      "mainActivities": [
+        "Leading the company-wide rollout of SLOs and error budgets across engineering teams",
+        "Owning the reliability and observability roadmap across engineering, building on the Datadog consolidation and Rootly migration",
+        "Cut observability costs by $67K a year by consolidating the stack onto Datadog, retiring New Relic and Sentry, and resizing both the contract and data ingestion",
+        "Raised the alert acknowledgement rate 5x, from 17% to 85%, by rolling out Rootly for alerting and on-call to all engineering teams, with in-house automation that migrated monitors from 4 alerting sources",
+        "Reduced MTTA on critical alerts by 66%, from 12 to 4 minutes, by setting incident-management standards (severity levels, an incident manager role, blameless postmortems) backed by an SRE health-metrics framework",
+        "Mentored 2 engineers, both of whom earned raises"
+      ],
       "address": "https://www.cora.com.br/",
-      "technologies": []
+      "technologies": [
+        "Datadog",
+        "Rootly",
+        "Prometheus",
+        "Grafana",
+        "Terraform",
+        "AWS"
+      ]
     },
     {
       "where": "Zup Innovation",
+      "about": "Technology company, part of Itaú Unibanco",
       "title": "Senior Site Reliability Engineer",
-      "from": "Aug 2024 - Jul 2025",
+      "from": "August 2024 – July 2025",
       "mainActivities": [
-        "Create instrumentation standards to ensure applications Observability and Reliability",
-        "Increase applications uptime by 30% by identifying and solving performance issues",
-        "Decrease incident response time in 12% with the adoption of an observability platform"
+        "Increased application uptime by 30% by finding and fixing performance bottlenecks",
+        "Reduced incident response time by 12% by adopting Datadog as the observability platform",
+        "Created instrumentation standards for logs, metrics and traces to make applications observable and reliable"
       ],
       "address": "http://zup.com.br/",
-      "technologies": ["Terraform", "Datadog", "AWS", "Java"]
+      "technologies": [
+        "Datadog",
+        "Terraform",
+        "AWS",
+        "Java"
+      ]
     },
     {
-      "where": "Pagar.me & Stone Co.",
+      "where": "Pagar.me (Stone Co.)",
+      "about": "Payments company, part of StoneCo (Nasdaq: STNE)",
       "title": "Senior Site Reliability Engineer",
-      "from": "Feb 2022 - Aug 2024",
+      "from": "February 2022 – August 2024",
       "roles": [
         {
           "title": "Senior Site Reliability Engineer",
-          "from": "Dec 2023 - Aug 2024"
+          "from": "December 2023 – August 2024"
         },
         {
           "title": "Site Reliability Engineer",
-          "from": "Feb 2022 - Dec 2023"
+          "from": "February 2022 – December 2023"
         }
       ],
       "mainActivities": [
-        "Implement an alert and incident management tool, reducing MTTA by 70% and MTTR by 55%",
-        "Develop and maintain an Observability Platform, standardizing telemetry emission and collection and reducing billing by 10%",
-        "Implement a company-wide synthetics tool, reducing synthetics billing by 97%",
-        "Standardize Datadog integration with AWS accounts and Azure subscriptions, reducing cycle and lead time by 98%",
-        "Create log quality guardrails on Datadog, decreasing log indexing by 20%"
+        "Reduced MTTA by 70% and MTTR by 55% by implementing an alerting and incident-management tool",
+        "Cut observability billing by 10% by building and running an observability platform on OpenTelemetry and Datadog that standardized how telemetry is emitted and collected",
+        "Cut synthetic-monitoring costs by 97% by implementing a company-wide synthetics tool",
+        "Reduced Datadog integration time from days to minutes (98%) by standardizing it as Terraform code across 50+ AWS accounts and Azure subscriptions",
+        "Reduced indexed log volume by 20% by building log-quality guardrails in Datadog"
       ],
       "address": "https://www.stone.co/br/",
-      "technologies": ["Terraform", "Datadog", "OpenTelemetry", "AWS", "Go", "Python"]
+      "technologies": [
+        "Datadog",
+        "OpenTelemetry",
+        "Terraform",
+        "AWS",
+        "Azure",
+        "Go",
+        "Python"
+      ]
     },
     {
       "where": "VTEX Lab",
       "title": "Reliability Researcher",
-      "from": "Apr 2021 - Feb 2022",
+      "from": "2021 – 2022",
       "mainActivities": [
-        "Use Infrastructure as a Code to describe several services including a critical system",
-        "Make load tests and analyze its results to guide infrastructure decisions",
-        "Design and maintain a proprietary load testing tool based on accurate load reproduction"
+        "Designed and maintained an in-house load-testing tool that accurately reproduces production traffic patterns",
+        "Ran load tests and analyzed the results to guide infrastructure decisions",
+        "Codified several services, including a business-critical system, as infrastructure as code"
       ],
       "address": "https://lab.vtex.com/home/",
-      "technologies": ["Terraform", "Ansible", "AWS", "Go", "Python"]
+      "technologies": [
+        "Terraform",
+        "Ansible",
+        "AWS",
+        "Go",
+        "Python"
+      ]
     }
   ],
   "otherWorkExperiences": [
     {
-      "where": "SPLAB (UFCG) - EPOL",
-      "title": "Lead Software Developer",
-      "from": "Mar 2020 - Mar 2021",
-      "mainActivities": [
-        "Develop an NLP microservices-based system with a frontend to provide useful information for Brazilian's Federal Police Officer",
-        "Containerize the microservices with Docker and deploy them on a private OpenShift cloud",
-        "Make software architectural decisions and guide other teammates on the development process"
-      ],
-      "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
-      "technologies": ["Docker", "OpenShift", "Python", "Flask", "NLTK", "Spacy", "JavaScript", "ReactJS"]
+      "where": "SPLAB (UFCG)",
+      "title": "Lead Software Developer · NLP Researcher",
+      "from": "2019 – 2021",
+      "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia"
     },
     {
-      "where": "Incodde - SRE",
-      "title": "Site Reliability Engineer",
-      "from": "Aug 2020 - Oct 2020",
-      "mainActivities": [
-        "Containerize Javascript-based environments (Frontend and Backend) with Docker",
-        "Automate highly scalable and resilient cloud operations with CI/CD pipelines at AWS",
-        "Monitor and Troubleshoot complex incidents in distributed systems"
-      ],
-      "address": "https://incodde.com",
-      "technologies": ["AWS", "Docker", "Gitlab CI", "Zabbix"]
+      "where": "Incodde",
+      "title": "Site Reliability Engineer · Lead Software Engineer",
+      "from": "2020",
+      "address": "https://incodde.com"
     },
     {
-      "where": "Incodde - SWE",
-      "title": "Lead Software Engineer",
-      "from": "Apr 2020 - Aug 2020",
-      "mainActivities": [
-        "Gather product requirements and ensure they are met in conjunction with code quality",
-        "Design and develop modularized micro-services systems with integrations with external APIs",
-        "Develop responsive and reactive frontend interfaces, and ensure their quality with unit testing and integration testing"
-      ],
-      "address": "https://incodde.com",
-      "technologies": ["JavaScript", "NodeJS", "ReactJS", "VueJS", "Cypress", "Jest", "PostgreSQL"]
-    },
-    {
-      "where": "DQL (UFCG) - PWC Tool",
-      "title": "Frontend Developer & Tester",
-      "from": "Aug 2019 - Feb 2020",
-      "mainActivities": [
-        "Frontend development of a Chemical Processes simulation tool",
-        "Ensure project quality with frontend tests"
-      ],
-      "address": "https://sites.google.com/site/dqgroupufcg/home",
-      "technologies": ["ReactJS", "Typescript", "Redux", "Cypress", "Jest"]
-    },
-    {
-      "where": "SPLAB (UFCG) - EPOL",
-      "title": "NLP Undergraduate Researcher",
-      "from": "May 2019 - Jun 2019",
-      "mainActivities": [
-        "Research NLP techniques to process federal police reports and its contents"
-      ],
-      "address": "http://www.computacao.ufcg.edu.br/graduacao/informes/projetoepolelancadocomsolenidadeembrasilia",
-      "technologies": ["Python", "NLTK", "Spacy"]
-    },
-    {
-      "where": "SPLAB (UFCG) - ECIS",
-      "title": "Frontend Developer & Research Intern",
-      "from": "Sep 2018 - Apr 2019",
-      "mainActivities": [
-        "Frontend development of a Social Network that integrates the Brazilian Health Industrial Complex (CIS)",
-        "Browser based text and video chat development using WebRTC and Websocket"
-      ],
-      "address": "https://github.com/eciis/web",
-      "technologies": ["AngularJS (1.6)", "WebRTC", "Websocket"]
+      "where": "UFCG research labs",
+      "title": "Frontend Developer",
+      "from": "2018 – 2020"
     }
   ],
-  "languages": [
-    { "lang": "Portuguese", "level": "native" },
-    { "lang": "English", "level": "fluent" }
+  "skills": [
+    {
+      "group": "Observability",
+      "items": [
+        "Datadog",
+        "OpenTelemetry",
+        "Prometheus",
+        "Grafana"
+      ]
+    },
+    {
+      "group": "Incident response",
+      "items": [
+        "Rootly",
+        "Incident management",
+        "SLOs and error budgets",
+        "Postmortems"
+      ]
+    },
+    {
+      "group": "Cloud & IaC",
+      "items": [
+        "AWS",
+        "Terraform",
+        "Ansible"
+      ]
+    },
+    {
+      "group": "Languages",
+      "items": [
+        "Go",
+        "Python"
+      ]
+    },
+    {
+      "group": "Also worked with",
+      "items": [
+        "Kubernetes",
+        "Docker",
+        "CI/CD pipelines"
+      ]
+    }
   ],
   "projects": [
     {
@@ -184,9 +208,9 @@
   "education": [
     {
       "where": "Federal University of Campina Grande (UFCG)",
-      "pursuing": "Bachelor's degree in Computer Science",
-      "from": "Jan 2018 - Dec 2022",
-      "details": "GPA 8.97/10.0 · 2nd place out of 100 on ENEM aptitude test (SAT)",
+      "pursuing": "B.Sc. in Computer Science",
+      "from": "2022",
+      "details": "GPA 8.97/10",
       "address": "https://portal.ufcg.edu.br/"
     }
   ],
@@ -228,14 +252,6 @@
     {
       "name": "Datadog Certified: Log Management Fundamentals",
       "issuer": "Datadog"
-    },
-    {
-      "name": "Introduction to Observability",
-      "issuer": "Datadog Learning Center"
-    },
-    {
-      "name": "Going Deeper with Logs Processing",
-      "issuer": "Datadog Learning Center"
     }
   ]
 }
