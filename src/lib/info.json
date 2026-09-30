@@ -5,7 +5,7 @@
   "from": "Campina Grande, PB - Brazil",
   "mainField": "Site Reliability Engineer & Software Engineer",
   "whoAmI": [
-    "Site Reliability Engineer with 5+ years making platforms reliable and observable. I have led observability and incident management initiatives at Pagar.me & Stone Co., Zup and now Cora, cutting MTTA by 70% and MTTR by 55% with AWS, Terraform and Datadog. I started as a full-stack developer and hold a BSc in Computer Science from UFCG."
+    "Site Reliability Engineer with 5+ years making platforms reliable, observable and cost-efficient, now at Cora. At Pagar.me & Stone Co. I cut MTTA by 70% and MTTR by 55% and reduced observability costs through standardized telemetry; at Zup I raised application uptime by 30%. I started as a full-stack developer and hold a BSc in Computer Science from UFCG."
   ],
   "contacts": [
     {
@@ -34,13 +34,9 @@
           "from": "Jul 2025 - Aug 2026"
         }
       ],
-      "mainActivities": [
-        "Lead reliability and observability initiatives across the platform, defining standards adopted by engineering teams",
-        "Drive incident management practices, SLOs and error budgets to protect critical financial flows",
-        "Automate infrastructure provisioning and operations with Infrastructure as Code"
-      ],
+      "mainActivities": [],
       "address": "https://www.cora.com.br/",
-      "technologies": ["AWS", "Kubernetes", "Terraform", "Datadog"]
+      "technologies": []
     },
     {
       "where": "Zup Innovation",
@@ -58,13 +54,25 @@
       "where": "Pagar.me & Stone Co.",
       "title": "Senior Site Reliability Engineer",
       "from": "Feb 2022 - Aug 2024",
+      "roles": [
+        {
+          "title": "Senior Site Reliability Engineer",
+          "from": "Dec 2023 - Aug 2024"
+        },
+        {
+          "title": "Site Reliability Engineer",
+          "from": "Feb 2022 - Dec 2023"
+        }
+      ],
       "mainActivities": [
-        "Implementation of an alert and incident management tool reducing MTTA in 70% and MTTR in 55%;",
-        "Develop and maintain a Observability Platform to ensure our team can have quick insights about the health of our systems;",
-        "Standardize telemetry data emission and collection through the Observability Platform enhancing telemetry correlation and reducing billing in 10%"
+        "Implement an alert and incident management tool, reducing MTTA by 70% and MTTR by 55%",
+        "Develop and maintain an Observability Platform, standardizing telemetry emission and collection and reducing billing by 10%",
+        "Implement a company-wide synthetics tool, reducing synthetics billing by 97%",
+        "Standardize Datadog integration with AWS accounts and Azure subscriptions, reducing cycle and lead time by 98%",
+        "Create log quality guardrails on Datadog, decreasing log indexing by 20%"
       ],
       "address": "https://www.stone.co/br/",
-      "technologies": ["Terraform", "Datadog", "AWS", "Go", "Python"]
+      "technologies": ["Terraform", "Datadog", "OpenTelemetry", "AWS", "Go", "Python"]
     },
     {
       "where": "VTEX Lab",
@@ -130,7 +138,7 @@
     {
       "where": "SPLAB (UFCG) - EPOL",
       "title": "NLP Undergraduate Researcher",
-      "from": "May 2019 - Jul 2019",
+      "from": "May 2019 - Jun 2019",
       "mainActivities": [
         "Research NLP techniques to process federal police reports and its contents"
       ],
@@ -140,7 +148,7 @@
     {
       "where": "SPLAB (UFCG) - ECIS",
       "title": "Frontend Developer & Research Intern",
-      "from": "Oct 2018 - Apr 2019",
+      "from": "Sep 2018 - Apr 2019",
       "mainActivities": [
         "Frontend development of a Social Network that integrates the Brazilian Health Industrial Complex (CIS)",
         "Browser based text and video chat development using WebRTC and Websocket"
@@ -176,9 +184,9 @@
   "education": [
     {
       "where": "Federal University of Campina Grande (UFCG)",
-      "pursuing": "Bachelor's degree of Computer Science",
+      "pursuing": "Bachelor's degree in Computer Science",
       "from": "Jan 2018 - Dec 2022",
-      "details": "Current score of 8.9/10.0 (GPA) and 2° place out of 100 on ENEM aptitude test (SAT)",
+      "details": "GPA 8.97/10.0 · 2nd place out of 100 on ENEM aptitude test (SAT)",
       "address": "https://portal.ufcg.edu.br/"
     }
   ],
@@ -214,6 +222,20 @@
       "from": "May 2018",
       "role": "Participant",
       "address": "https://2018.pythonnordeste.org/"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Datadog Certified: Log Management Fundamentals",
+      "issuer": "Datadog"
+    },
+    {
+      "name": "Introduction to Observability",
+      "issuer": "Datadog Learning Center"
+    },
+    {
+      "name": "Going Deeper with Logs Processing",
+      "issuer": "Datadog Learning Center"
     }
   ]
 }

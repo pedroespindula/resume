@@ -4,6 +4,7 @@ import React from "react";
 
 import {
   // Awards,
+  Certifications,
   Education,
   // Events,
   // Projects,
@@ -14,6 +15,7 @@ import {
 
 const ResumeBody = ({
   // awards,
+  certifications,
   education,
   // events,
   // projects,
@@ -28,6 +30,7 @@ const ResumeBody = ({
     </div>
     <aside className="side-column">
       <Education info={education} />
+      <Certifications info={certifications} />
       <OtherWorkExperiences info={otherWorkExperiences} />
       {/* <Projects info={projects} /> */}
       {/* <Awards info={awards} /> */}

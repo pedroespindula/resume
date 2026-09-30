@@ -26,14 +26,18 @@ const renderInfo = (workExperience, index) => (
       link={workExperience.address}
     />
     {renderRoles(workExperience)}
-    <ul className="we-activities">
-      {workExperience.mainActivities.map((activity, i) => (
-        <li key={i}>{activity.replace(/;$/, "")}</li>
-      ))}
-    </ul>
-    <p className="we-technologies">
-      {workExperience.technologies.join(" · ")}
-    </p>
+    {workExperience.mainActivities.length > 0 && (
+      <ul className="we-activities">
+        {workExperience.mainActivities.map((activity, i) => (
+          <li key={i}>{activity.replace(/;$/, "")}</li>
+        ))}
+      </ul>
+    )}
+    {workExperience.technologies.length > 0 && (
+      <p className="we-technologies">
+        {workExperience.technologies.join(" · ")}
+      </p>
+    )}
   </li>
 );
 

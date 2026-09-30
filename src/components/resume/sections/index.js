@@ -1,4 +1,5 @@
 import Awards from "./awards/Awards";
+import Certifications from "./certifications/Certifications";
 import Contacts from "./contacts/Contacts";
 import Education from "./education/Education";
 import Events from "./events/Events.jsx";
@@ -10,6 +11,7 @@ import WorkExperience from "./work-experience/WorkExperience";
 
 export {
   Awards,
+  Certifications,
   Contacts,
   Education,
   Events,

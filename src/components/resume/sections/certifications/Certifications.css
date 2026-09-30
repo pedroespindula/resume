@@ -1,0 +1,11 @@
+.certifications {
+  gap: 0.6rem !important;
+}
+
+.certifications .cert-name {
+  font-weight: 500;
+}
+
+.certifications .cert-issuer {
+  color: var(--main-light-color);
+}
