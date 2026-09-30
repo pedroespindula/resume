@@ -12,7 +12,7 @@ const renderInfo = skill => (
 );
 
 const Skills = ({ info }) => (
-  <ResumeSection title="Skills">
+  <ResumeSection title="Languages & Technologies">
     <ul className="skills">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );

@@ -13,8 +13,14 @@
   gap: 0.9rem;
 }
 
-.resume-section > div > ul > li {
+.compact-list > li,
+.we-activities > li {
   break-inside: avoid;
+}
+
+.title-with-date,
+.we-role {
+  break-after: avoid;
 }
 
 .resume-section > div > ul.compact-list {
@@ -28,4 +34,8 @@
 .compact-list .title-with-date .subtitle {
   font-size: 1rem;
   color: var(--main-text-color);
+}
+
+.resume-section > h2 {
+  break-after: avoid;
 }

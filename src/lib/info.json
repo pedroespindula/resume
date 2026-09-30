@@ -5,17 +5,19 @@
   "from": "Brazil · Remote (UTC-3)",
   "mainField": "Staff Site Reliability Engineer",
   "whoAmI": [
-    "Staff Site Reliability Engineer with 5+ years making production platforms reliable, observable and cost-efficient, mostly at Brazilian fintechs. At Cora I rolled out company-wide alerting and on-call with Rootly, raising alert acknowledgement from 17% to 85%, and consolidated observability onto Datadog, saving $67K a year. At Pagar.me (Stone Co.) I cut MTTA by 70% and MTTR by 55%. Hands-on with Datadog, OpenTelemetry, Prometheus, Grafana, Terraform, AWS, Go and Python."
+    "Staff Site Reliability Engineer with 5+ years in SRE at Brazilian fintech and payments companies, focused on observability, incident response and the cost of reliability.",
+    "At Cora, rolled out alerting and on-call to 100% of engineering teams, raising alert acknowledgement from 17% to 85% and cutting critical-alert MTTA from 12 to 4 minutes, and consolidated observability onto Datadog for $67K in yearly savings.",
+    "At Pagar.me (StoneCo), cut MTTA by 70% and MTTR by 55%."
   ],
   "contacts": [
     {
       "socialNetwork": "github",
-      "user": "github.com/pedroespindula",
+      "user": "GitHub",
       "address": "https://www.github.com/pedroespindula"
     },
     {
       "socialNetwork": "linkedin",
-      "user": "linkedin.com/in/pedroespindula",
+      "user": "LinkedIn",
       "address": "https://www.linkedin.com/in/pedroespindula/"
     }
   ],
@@ -24,40 +26,51 @@
       "where": "Cora",
       "about": "Brazilian digital bank for small and medium businesses",
       "title": "Staff Site Reliability Engineer",
-      "from": "Jul 2025 – Present",
+      "from": "July 2025 – Present",
       "roles": [
         {
           "title": "Staff Site Reliability Engineer",
-          "from": "Aug 2026 – Present"
+          "from": "August 2026 – Present",
+          "mainActivities": [
+            "Built usage and cost anomaly alerting for every Datadog product, with 105% and 110% thresholds plus per-team cost dashboards, after detecting and containing a log-ingestion burst 400–500x above baseline that had accrued $29.7K; the alerts have since caught 1 further anomaly in custom-metric volume",
+            "Root-caused a facial-login failure invisible to error monitors because 100% of responses returned HTTP 200, leading to the fix that cut the failure rate from 80% to 4% and the Android capture-screen p95 from 87s to under 7s",
+            "Driving SLOs with active error budgets for the 6 business-critical flows, including Pix instant payments, onboarding, credit, credit card and acquiring"
+          ]
         },
         {
           "title": "Senior Site Reliability Engineer",
-          "from": "Jul 2025 – Jul 2026"
+          "from": "July 2025 – July 2026",
+          "mainActivities": [
+            "Cut observability spend by $67K a year by consolidating 3 vendors onto Datadog, decommissioning New Relic and Sentry, and right-sizing the contract and APM ingestion",
+            "Raised the alert acknowledgement rate 5x, from 17% to 85%, by rolling out Rootly for alerting and on-call to 100% of engineering teams, with a Go CLI that migrated 1,215 monitors from 4 alerting sources through a dual-write rollout",
+            "Selected the on-call platform among 11 vendors through a 3-year TCO analysis and negotiated a 50% discount on on-call licenses, saving $9.5K a year",
+            "Cut MTTA on critical alerts by 66%, from 12 to 4 minutes, by establishing incident-management standards (severity taxonomy, incident manager role, blameless postmortems) backed by an SRE health-metrics framework",
+            "Doubled Datadog application coverage from 36% to 75% by standardizing monitors, alert channels, permissions and SSO, replacing the access-ticket queue with self-service",
+            "Raised on-time postmortems from 21% to 58% with automated reminders, AI-assisted drafting and per-area accountability",
+            "Shipped 4 read-only MCP servers (Grafana, Datadog, Superset, Rootly) to production, giving 3 engineering and AI organizations programmatic access to observability data",
+            "Mentored 2 junior SREs to own the alerting platform, who went on to handle 52% of inbound platform requests in a quarter without escalation, and ran 11 SRE Office Hours sessions open to all of engineering"
+          ]
         }
       ],
-      "mainActivities": [
-        "Leading the company-wide rollout of SLOs and error budgets across engineering teams",
-        "Owning the reliability and observability roadmap across engineering, building on the Datadog consolidation and Rootly migration",
-        "Cut observability costs by $67K a year by consolidating the stack onto Datadog, retiring New Relic and Sentry, and resizing both the contract and data ingestion",
-        "Raised the alert acknowledgement rate 5x, from 17% to 85%, by rolling out Rootly for alerting and on-call to all engineering teams, with in-house automation that migrated monitors from 4 alerting sources",
-        "Reduced MTTA on critical alerts by 66%, from 12 to 4 minutes, by setting incident-management standards (severity levels, an incident manager role, blameless postmortems) backed by an SRE health-metrics framework",
-        "Mentored 2 engineers, both of whom earned raises"
-      ],
+      "mainActivities": [],
       "address": "https://www.cora.com.br/",
       "technologies": [
         "Datadog",
         "Rootly",
-        "Prometheus",
         "Grafana",
+        "OpenTelemetry",
         "Terraform",
-        "AWS"
+        "Go",
+        "Python",
+        "AWS",
+        "GCP"
       ]
     },
     {
       "where": "Zup Innovation",
       "about": "Technology company, part of Itaú Unibanco",
       "title": "Senior Site Reliability Engineer",
-      "from": "Aug 2024 – Jul 2025",
+      "from": "August 2024 – July 2025",
       "mainActivities": [
         "Increased application uptime by 30% by finding and fixing performance bottlenecks",
         "Reduced incident response time by 12% by adopting Datadog as the observability platform",
@@ -72,18 +85,18 @@
       ]
     },
     {
-      "where": "Pagar.me (Stone Co.)",
+      "where": "Pagar.me (StoneCo)",
       "about": "Payments company, part of StoneCo (Nasdaq: STNE)",
       "title": "Senior Site Reliability Engineer",
-      "from": "Feb 2022 – Aug 2024",
+      "from": "2022 – August 2024",
       "roles": [
         {
           "title": "Senior Site Reliability Engineer",
-          "from": "Dec 2023 – Aug 2024"
+          "from": "December 2023 – August 2024"
         },
         {
           "title": "Site Reliability Engineer",
-          "from": "Feb 2022 – Dec 2023"
+          "from": "2022 – December 2023"
         }
       ],
       "mainActivities": [
@@ -146,27 +159,38 @@
     {
       "group": "Observability",
       "items": [
-        "Datadog",
+        "Datadog (APM, RUM, Logs, Synthetics, Database and Network Monitoring)",
+        "Grafana (Loki, Mimir, Tempo)",
         "OpenTelemetry",
-        "Prometheus",
-        "Grafana"
+        "Prometheus"
       ]
     },
     {
       "group": "Incident response",
       "items": [
         "Rootly",
+        "On-call and escalation design",
         "Incident management",
-        "SLOs and error budgets",
-        "Postmortems"
+        "Blameless postmortems",
+        "SLOs and error budgets"
       ]
     },
     {
-      "group": "Cloud & IaC",
+      "group": "Infrastructure",
+      "items": [
+        "Terraform",
+        "Kubernetes",
+        "Helm",
+        "Argo CD",
+        "Vault",
+        "Keycloak (SAML SSO)"
+      ]
+    },
+    {
+      "group": "Cloud",
       "items": [
         "AWS",
-        "Terraform",
-        "Ansible"
+        "GCP"
       ]
     },
     {
@@ -177,11 +201,10 @@
       ]
     },
     {
-      "group": "Also worked with",
+      "group": "AI for operations",
       "items": [
-        "Kubernetes",
-        "Docker",
-        "CI/CD pipelines"
+        "MCP servers",
+        "Claude Code"
       ]
     }
   ],

@@ -28,22 +28,39 @@
   }
 }
 
+/* Chromium fragments CSS grid badly across printed pages, so print uses block flow */
 @media print {
   .resume,
-  .resume-body {
-    gap: 1rem;
+  .resume-body,
+  .resume-section > div > ul,
+  .work-experience .we-roles,
+  .work-experience .we-activities {
+    display: block;
+  }
+
+  .resume > * + *,
+  .resume-body > * + * {
+    margin-top: 1.3rem;
   }
 
   .resume-section > h2 {
     margin-bottom: 0.5rem;
   }
 
-  .work-experience {
-    gap: 0.9rem !important;
+  .resume-section > div > ul > li + li {
+    margin-top: 1.1rem;
   }
 
-  .work-experience .we-activities {
-    margin: 0.25rem 0;
-    gap: 0.1rem;
+  .resume-section > div > ul.compact-list > li + li,
+  .resume-section > div > ul.skills > li + li {
+    margin-top: 0.2rem;
+  }
+
+  .work-experience .we-roles > li + li {
+    margin-top: 0.3rem;
+  }
+
+  .work-experience .we-activities > li + li {
+    margin-top: 0.15rem;
   }
 }

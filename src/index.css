@@ -20,7 +20,9 @@ ul {
 
 a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: var(--main-light-color);
+  text-underline-offset: 0.15em;
 }
 
 a:hover {
@@ -33,14 +35,14 @@ h2 {
 
 @page {
   size: A4;
-  margin: 10mm 13mm;
+  margin: 12mm 14mm;
 }
 
 @media print {
   html,
   body {
-    font-size: 10px;
-    line-height: 1.35;
+    font-size: 10.5px;
+    line-height: 1.45;
     background: var(--main-bg-color);
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
