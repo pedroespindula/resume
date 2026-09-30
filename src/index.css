@@ -41,7 +41,7 @@ h2 {
 @media print {
   html,
   body {
-    font-size: 10.5px;
+    font-size: 11px;
     line-height: 1.45;
     background: var(--main-bg-color);
     -webkit-print-color-adjust: exact;
