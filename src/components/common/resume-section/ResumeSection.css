@@ -1,30 +1,31 @@
 .resume-section > h2 {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.4rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.3rem;
   border-bottom: 1px solid var(--main-border-color);
-  font-size: 0.95rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
-}
-
-.resume-section > h2 > .icon {
-  width: 1.1rem;
-  text-align: center;
 }
 
 .resume-section > div > ul {
   display: grid;
-  gap: 1.1rem;
+  gap: 0.9rem;
 }
 
 .resume-section > div > ul > li {
   break-inside: avoid;
 }
 
-.resume-section p {
+.resume-section > div > ul.compact-list {
+  gap: 0.3rem;
+}
+
+.compact-list .title-with-date > h3 {
+  font-size: 1rem;
+}
+
+.compact-list .title-with-date .subtitle {
+  font-size: 1rem;
   color: var(--main-text-color);
 }

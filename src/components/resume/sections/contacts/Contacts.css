@@ -1,32 +1,24 @@
 .contacts {
-  display: grid;
-  gap: 0.3rem;
-  justify-items: end;
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--main-light-color);
 }
 
-.contacts a > span {
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
+.contacts > li + li::before {
+  content: "·";
+  margin: 0 0.6em;
 }
 
 .contacts a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.contacts .icon {
-  width: 1rem;
-  text-align: center;
-  font-size: 1rem;
+  color: var(--main-text-color);
 }
 
 @media screen and (max-width: 800px) {
   .contacts {
-    justify-items: start;
+    flex-direction: column;
   }
 
-  .contacts a {
-    flex-direction: row-reverse;
+  .contacts > li + li::before {
+    content: none;
   }
 }

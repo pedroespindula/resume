@@ -8,17 +8,18 @@ const renderInfo = education => (
   <li key={education.where}>
     <TitleWithDate
       title={education.where}
+      subtitle={[education.pursuing, education.details]
+        .filter(Boolean)
+        .join(" · ")}
       date={education.from}
       link={education.address}
     />
-    <p className="edu-degree">{education.pursuing}</p>
-    <p className="edu-details">{education.details}</p>
   </li>
 );
 
 const Education = ({ info }) => (
-  <ResumeSection title="Education" icon="fas fa-graduation-cap">
-    <ul>{info.map(renderInfo)}</ul>
+  <ResumeSection title="Education">
+    <ul className="compact-list">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );
 

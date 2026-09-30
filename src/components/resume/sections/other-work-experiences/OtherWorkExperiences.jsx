@@ -6,17 +6,18 @@ import "./OtherWorkExperiences.css";
 
 const renderInfo = (workExperience, index) => (
   <li key={index}>
-    <TitleWithDate title={workExperience.where} link={workExperience.address} />
-    <p className="owe-title">
-      <span>{workExperience.title}</span>
-      <span className="owe-date">{workExperience.from}</span>
-    </p>
+    <TitleWithDate
+      title={workExperience.where}
+      subtitle={workExperience.title}
+      date={workExperience.from}
+      link={workExperience.address}
+    />
   </li>
 );
 
 const OtherWorkExperiences = ({ info }) => (
-  <ResumeSection title="Earlier Experience" icon="fas fa-history">
-    <ul className="other-work-experiences">{info.map(renderInfo)}</ul>
+  <ResumeSection title="Earlier Experience">
+    <ul className="compact-list">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );
 

@@ -7,28 +7,20 @@ import "./WorkExperience.css";
 const renderRole = role => (
   <li key={role.title}>
     <span className="role-title">{role.title}</span>
-    <span className="role-date">{role.from}</span>
+    <span className="date">{role.from}</span>
   </li>
 );
-
-const renderRoles = workExperience =>
-  workExperience.roles ? (
-    <ul className="we-roles">{workExperience.roles.map(renderRole)}</ul>
-  ) : (
-    <p className="we-title">{workExperience.title}</p>
-  );
 
 const renderInfo = (workExperience, index) => (
   <li key={index}>
     <TitleWithDate
       title={workExperience.where}
-      date={workExperience.roles ? null : workExperience.from}
+      subtitle={workExperience.about}
       link={workExperience.address}
     />
-    {workExperience.about && (
-      <p className="we-about">{workExperience.about}</p>
-    )}
-    {renderRoles(workExperience)}
+    <ul className="we-roles">
+      {(workExperience.roles || [workExperience]).map(renderRole)}
+    </ul>
     {workExperience.mainActivities.length > 0 && (
       <ul className="we-activities">
         {workExperience.mainActivities.map((activity, i) => (
@@ -45,7 +37,7 @@ const renderInfo = (workExperience, index) => (
 );
 
 const WorkExperience = ({ info }) => (
-  <ResumeSection title="Work Experience" icon="fas fa-briefcase">
+  <ResumeSection title="Work Experience">
     <ul className="work-experience">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );

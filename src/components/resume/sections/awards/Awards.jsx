@@ -12,7 +12,7 @@ const renderInfo = award => (
 );
 
 const Awards = ({ info }) => (
-  <ResumeSection title="Awards" icon="fas fa-medal">
+  <ResumeSection title="Awards">
     <ul>{info.map(renderInfo)}</ul>
   </ResumeSection>
 );

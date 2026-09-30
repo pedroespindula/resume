@@ -1,55 +1,24 @@
-.resume-header {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1.25rem;
-  align-items: center;
-  padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--main-border-color);
-}
-
 .resume-header .name {
-  font-size: 2.4rem;
+  font-size: 2.3rem;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: -0.02em;
-}
-
-.resume-header .main-field {
-  margin-top: 0.25rem;
-  font-size: 1.2rem;
-  font-weight: 500;
   color: var(--main-text-color);
 }
 
-.resume-header .from {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  margin-top: 0.35rem;
-  color: var(--main-light-color);
+.resume-header .main-field {
+  margin-top: 0.2rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--main-accent-color);
 }
 
-.resume-header .from .icon {
-  color: var(--main-light-color);
-}
-
-.resume-header .reach {
-  display: grid;
-  gap: 0.6rem;
-  justify-items: end;
+.resume-header .contacts {
+  margin-top: 0.6rem;
 }
 
 @media screen and (max-width: 800px) {
-  .resume-header {
-    grid-template-columns: 1fr;
-  }
-
   .resume-header .name {
     font-size: 1.9rem;
-  }
-
-  .resume-header .reach {
-    grid-column: 1 / -1;
-    justify-items: start;
   }
 }

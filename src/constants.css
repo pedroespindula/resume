@@ -1,10 +1,9 @@
 :root {
   --main-bg-color: #ffffff;
   --page-bg-color: #f3f4f6;
-  --main-text-color: #1f2937;
+  --main-text-color: #111827;
   --main-accent-color: #1e3a6e;
   --main-light-color: #6b7280;
-  --main-border-color: #e5e7eb;
+  --main-border-color: #d1d5db;
   --main-featured-color: #2563eb;
-  --chip-bg-color: #eef2f9;
 }

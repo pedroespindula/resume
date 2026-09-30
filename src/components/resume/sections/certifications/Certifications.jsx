@@ -1,19 +1,18 @@
 import React from "react";
 
-import { ResumeSection } from "../../../common";
+import { ResumeSection, TitleWithDate } from "../../../common";
 
 import "./Certifications.css";
 
 const renderInfo = certification => (
   <li key={certification.name}>
-    <p className="cert-name">{certification.name}</p>
-    <p className="cert-issuer">{certification.issuer}</p>
+    <TitleWithDate title={certification.name} date={certification.issuer} />
   </li>
 );
 
 const Certifications = ({ info }) => (
-  <ResumeSection title="Certifications" icon="fas fa-certificate">
-    <ul className="certifications">{info.map(renderInfo)}</ul>
+  <ResumeSection title="Certifications">
+    <ul className="compact-list">{info.map(renderInfo)}</ul>
   </ResumeSection>
 );
 

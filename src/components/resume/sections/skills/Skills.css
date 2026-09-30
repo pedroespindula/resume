@@ -1,10 +1,10 @@
 .skills {
-  gap: 0.3rem !important;
+  gap: 0.2rem !important;
 }
 
 .skills > li {
   display: grid;
-  grid-template-columns: 11rem 1fr;
+  grid-template-columns: 9.5rem 1fr;
   gap: 1rem;
 }
 

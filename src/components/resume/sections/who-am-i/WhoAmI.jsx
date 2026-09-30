@@ -5,9 +5,9 @@ import { ResumeSection } from "../../../common";
 import "./WhoAmI.css";
 
 const WhoAmI = ({ info }) => (
-  <ResumeSection title="Summary" icon="fas fa-user">
+  <ResumeSection title="Summary">
     {info.map((paragraph, index) => (
-      <p className="indent" key={index}>
+      <p key={index}>
         {paragraph}
       </p>
     ))}

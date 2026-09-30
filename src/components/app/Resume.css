@@ -1,16 +1,18 @@
 .resume {
   display: grid;
-  gap: 1.75rem;
+  align-content: start;
+  gap: 1.5rem;
   max-width: 210mm;
   min-height: 297mm;
   margin: 2rem auto;
-  padding: 2.5rem 2.75rem;
+  padding: 14mm 16mm;
   background-color: var(--main-bg-color);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
 @media screen and (max-width: 800px) {
   .resume {
+    min-height: 0;
     margin: 0;
     padding: 1.5rem 1rem;
     box-shadow: none;
@@ -19,8 +21,29 @@
 
 @media print {
   .resume {
+    min-height: 0;
     margin: 0;
-    padding: 10mm 13mm;
+    padding: 0;
     box-shadow: none;
+  }
+}
+
+@media print {
+  .resume,
+  .resume-body {
+    gap: 1rem;
+  }
+
+  .resume-section > h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .work-experience {
+    gap: 0.9rem !important;
+  }
+
+  .work-experience .we-activities {
+    margin: 0.25rem 0;
+    gap: 0.1rem;
   }
 }

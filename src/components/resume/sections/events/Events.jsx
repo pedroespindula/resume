@@ -12,7 +12,7 @@ const renderInfo = event => (
 );
 
 const Events = ({ info }) => (
-  <ResumeSection title="Events" icon="fas fa-calendar-day">
+  <ResumeSection title="Events">
     <ul>{info.map(renderInfo)}</ul>
   </ResumeSection>
 );

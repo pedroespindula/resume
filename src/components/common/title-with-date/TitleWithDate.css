@@ -1,9 +1,8 @@
 .title-with-date {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: baseline;
-  column-gap: 1rem;
+  gap: 1rem;
 }
 
 .title-with-date > h3 {
@@ -11,22 +10,27 @@
   font-weight: 600;
 }
 
-.title-with-date > h3 > a > .icon {
-  margin-left: 0.4rem;
-  font-size: 0.65rem;
+.title-with-date .subtitle {
+  font-size: 0.9rem;
+  font-weight: 400;
   color: var(--main-light-color);
-  vertical-align: 0.15em;
 }
 
-.title-with-date > .date {
+.title-with-date .subtitle::before {
+  content: "·";
+  margin: 0 0.45em;
+}
+
+.date {
   color: var(--main-light-color);
   font-size: 0.9rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
 
-@media print {
-  .title-with-date > h3 > a > .icon {
-    display: none;
+@media screen and (max-width: 800px) {
+  .title-with-date {
+    flex-direction: column;
+    gap: 0;
   }
 }

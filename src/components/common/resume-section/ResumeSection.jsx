@@ -1,20 +1,15 @@
 import React from "react";
 
-import { Icon } from "..";
-
 import "./ResumeSection.css";
 
-const ResumeSection = ({ children, icon, title }) => (
+const ResumeSection = ({ children, title }) => (
   <section
     className={`resume-section ${title
       .toLowerCase()
       .split(" ")
       .join("-")}`}
   >
-    <h2>
-      <Icon icon={icon} size="small" />
-      {title}
-    </h2>
+    <h2>{title}</h2>
     <div>{children}</div>
   </section>
 );

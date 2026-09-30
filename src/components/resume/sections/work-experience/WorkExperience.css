@@ -1,17 +1,5 @@
 .work-experience {
-  gap: 1.6rem !important;
-}
-
-.work-experience .we-title,
-.work-experience .role-title {
-  margin-top: 0.1rem;
-  font-weight: 500;
-  color: var(--main-text-color);
-}
-
-.work-experience .we-roles {
-  display: grid;
-  gap: 0.1rem;
+  gap: 1.3rem !important;
 }
 
 .work-experience .we-roles > li {
@@ -21,46 +9,34 @@
   gap: 1rem;
 }
 
-.work-experience .role-date {
-  color: var(--main-light-color);
-  font-size: 0.9rem;
-  white-space: nowrap;
+.work-experience .role-title {
+  font-weight: 500;
 }
 
 .work-experience .we-roles > li + li .role-title {
-  color: var(--main-light-color);
   font-weight: 400;
+  color: var(--main-light-color);
 }
 
 .work-experience .we-activities {
-  margin: 0.5rem 0;
+  margin: 0.4rem 0;
   display: grid;
-  gap: 0.3rem;
+  gap: 0.2rem;
 }
 
 .work-experience .we-activities > li {
   position: relative;
   padding-left: 1rem;
-  line-height: 1.5;
 }
 
 .work-experience .we-activities > li::before {
-  content: "";
+  content: "–";
   position: absolute;
-  left: 0.15rem;
-  top: 0.65em;
-  width: 0.28rem;
-  height: 0.28rem;
-  border-radius: 50%;
-  background-color: var(--main-light-color);
+  left: 0.1rem;
+  color: var(--main-light-color);
 }
 
 .work-experience .we-technologies {
-  color: var(--main-light-color);
-  font-size: 0.9rem;
-}
-
-.work-experience .we-about {
   color: var(--main-light-color);
   font-size: 0.9rem;
 }

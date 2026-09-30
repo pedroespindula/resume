@@ -3,7 +3,7 @@ body {
   background-color: var(--page-bg-color);
   color: var(--main-text-color);
   font-size: 12px;
-  font-family: "Inter", "Roboto", system-ui, sans-serif;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -27,21 +27,20 @@ a:hover {
   color: var(--main-featured-color);
 }
 
-h1,
-h2,
-h3 {
+h2 {
   color: var(--main-accent-color);
 }
 
 @page {
   size: A4;
-  margin: 0;
+  margin: 10mm 13mm;
 }
 
 @media print {
   html,
   body {
-    font-size: 11px;
+    font-size: 10px;
+    line-height: 1.35;
     background: var(--main-bg-color);
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
